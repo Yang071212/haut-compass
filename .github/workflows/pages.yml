@@ -1,0 +1,59 @@
+name: Refresh and publish public workbench
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '30 0 * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: public-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Fetch current public data, retaining the last snapshot on failure
+        id: refresh
+        continue-on-error: true
+        run: npm run refresh
+      - name: Validate paths, data and update behavior
+        run: npm test
+      - name: Save the published snapshot
+        run: |
+          if ! git diff --quiet -- public/data/snapshot.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add public/data/snapshot.json
+            git commit -m 'Update public workbench snapshot [skip ci]'
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+      - name: Publish public static site
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report that retained content was published
+        if: steps.refresh.outcome == 'failure'
+        run: |
+          echo '::error::The public site was published with the retained snapshot and a visible warning because live data could not be refreshed.'
+          exit 1

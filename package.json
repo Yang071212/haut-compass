@@ -1,0 +1,1 @@
+{"name":"haut-compass-pages","version":"1.0.0","private":true,"type":"module","engines":{"node":">=22"},"scripts":{"refresh":"node scripts/update-snapshot.mjs","test":"node --test test/*.test.mjs"}}
