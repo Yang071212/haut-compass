@@ -62,6 +62,16 @@ test('service worker caches and controls only the project subtree', async () => 
   assert.equal(intercepted, false);
 });
 
+test('the published script and offline shell share a cache-busted release URL', async () => {
+  const html = await readFile(new URL('index.html', ROOT), 'utf8');
+  const sw = await readFile(new URL('sw.js', ROOT), 'utf8');
+  const script = html.match(/src="(\.\/app\.js\?v=[^\"]+)"/);
+  assert.ok(script, 'A versioned URL is required to retire old CDN/browser scripts');
+  assert.ok(sw.includes(script[1]), 'Offline precache must match the published script URL');
+  assert.match(sw, /cache: 'reload'/);
+  assert.match(sw, /cache: 'no-cache'/);
+});
+
 async function offlineWorkerResponse(payload) {
   const handlers = {};
   const cached = new Response(JSON.stringify(payload), { headers: { 'Content-Type': 'application/json' } });

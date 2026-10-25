@@ -1,11 +1,11 @@
-const CACHE = 'haut-compass-pages-v2';
+const CACHE = 'haut-compass-pages-v3';
 const BASE = new URL('./', self.location.href);
 const DATA_URL = new URL('./data/snapshot.json', BASE).href;
-const ASSETS = ['./', './style.css', './app.js', './icons.svg', './vendor/fuse.js',
+const ASSETS = ['./', './style.css', './app.js?v=2', './icons.svg', './vendor/fuse.js',
   './manifest.webmanifest', './icon-192.png', './icon-512.png', './data/snapshot.json'];
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS.map((asset) => new URL(asset, BASE).href))));
+  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS.map((asset) => new Request(new URL(asset, BASE).href, { cache: 'reload' })))));
   self.skipWaiting();
 });
 self.addEventListener('activate', (event) => {
@@ -16,7 +16,7 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
   if (event.request.method !== 'GET' || url.origin !== BASE.origin || !url.pathname.startsWith(BASE.pathname)) return;
-  event.respondWith(fetch(event.request).then((response) => {
+  event.respondWith(fetch(event.request, { cache: 'no-cache' }).then((response) => {
     const isData = url.href === DATA_URL;
     const validType = !isData || response.headers.get('content-type')?.includes('application/json');
     if (response.ok && validType) {
