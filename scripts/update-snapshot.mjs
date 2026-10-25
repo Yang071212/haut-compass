@@ -16,20 +16,43 @@ export function validateData(data) {
   return data;
 }
 
-export async function updateSnapshot({ fetcher = globalThis.fetch, previous, now = new Date(), timeoutMs = 20000 } = {}) {
+export async function updateSnapshot({ fetcher = globalThis.fetch, previous, now = new Date(), timeoutMs = 20000, maxAttempts = 3, retryDelayMs = 1500, sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)) } = {}) {
   validateData(previous);
   const checkedAt = new Date(now).toISOString();
   const nowMs = Date.parse(checkedAt);
+  const schedule = { enabled: true, time: '08:30', fallbackTime: '09:30', timezone: 'Asia/Shanghai' };
   try {
-    const response = await fetcher(SOURCE_URL, {
-      headers: { Accept: 'application/json' },
-      redirect: 'follow',
-      credentials: 'omit',
-      signal: AbortSignal.timeout(timeoutMs),
-    });
-    if (!response.ok) throw new Error('公开数据请求失败');
-    const data = validateData(await response.json());
-    if (data.delivery?.mode !== 'live') throw new Error('上游正在提供旧快照');
+    let data;
+    let attempts = 0;
+    while (attempts < maxAttempts) {
+      attempts++;
+      try {
+        const response = await fetcher(SOURCE_URL, {
+          headers: { Accept: 'application/json', 'Cache-Control': 'no-cache' },
+          redirect: 'follow',
+          credentials: 'omit',
+          signal: AbortSignal.timeout(timeoutMs),
+        });
+        if (!response.ok) {
+          const error = new Error('公开数据请求失败');
+          error.retryable = response.status === 429 || response.status >= 500;
+          throw error;
+        }
+        data = validateData(await response.json());
+        if (data.delivery?.mode !== 'live') throw new Error('上游正在提供旧快照');
+        if (data.refreshing) {
+          const error = new Error('上游仍在采集，暂不发布中间数据');
+          error.retryable = true;
+          throw error;
+        }
+        break;
+      } catch (error) {
+        const retryable = error.retryable || error instanceof TypeError || ['TimeoutError', 'AbortError'].includes(error.name);
+        if (!retryable || attempts >= maxAttempts) throw error;
+        await sleep(retryDelayMs * attempts);
+      }
+    }
+    if (!data) throw new Error('没有取得完整公开数据');
     const updatedMs = Date.parse(data.updatedAt);
     if (updatedMs > nowMs + 10 * 60 * 1000 || nowMs - updatedMs > MAX_AGE_MS) throw new Error('上游更新时间异常或内容已超过36小时');
     if (updatedMs < Date.parse(previous.updatedAt)) throw new Error('上游更新时间早于已发布内容');
@@ -37,8 +60,8 @@ export async function updateSnapshot({ fetcher = globalThis.fetch, previous, now
       ok: true,
       data: {
         ...data,
-        schedule: { enabled: true, time: '08:30', timezone: 'Asia/Shanghai' },
-        delivery: { mode: 'mirror', checkedAt, upstreamMode: 'live' },
+        schedule,
+        delivery: { mode: 'mirror', checkedAt, upstreamMode: 'live', attempts },
       },
     };
   } catch {
@@ -46,7 +69,7 @@ export async function updateSnapshot({ fetcher = globalThis.fetch, previous, now
       ok: false,
       data: {
         ...previous,
-        schedule: { enabled: true, time: '08:30', timezone: 'Asia/Shanghai' },
+        schedule,
         delivery: {
           ...previous.delivery,
           mode: 'snapshot',

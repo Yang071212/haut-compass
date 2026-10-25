@@ -1,4 +1,4 @@
-const CACHE = 'haut-compass-pages-v1';
+const CACHE = 'haut-compass-pages-v2';
 const BASE = new URL('./', self.location.href);
 const DATA_URL = new URL('./data/snapshot.json', BASE).href;
 const ASSETS = ['./', './style.css', './app.js', './icons.svg', './vendor/fuse.js',

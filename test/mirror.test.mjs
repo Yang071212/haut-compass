@@ -82,7 +82,7 @@ async function offlineWorkerResponse(payload) {
   return result;
 }
 
-async function interfaceHarness(fetcher, storedData) {
+async function interfaceHarness(fetcher, storedData, clock = now) {
   const nodes = new Map();
   const node = (selector) => {
     if (!nodes.has(selector)) nodes.set(selector, {
@@ -93,8 +93,12 @@ async function interfaceHarness(fetcher, storedData) {
     return nodes.get(selector);
   };
   const storage = new Map(storedData ? [['compass-data', JSON.stringify(storedData)]] : []);
+  class Clock extends Date {
+    constructor(...args) { super(...(args.length ? args : [clock])); }
+    static now() { return clock.getTime(); }
+  }
   const context = vm.createContext({
-    URL, Response, Headers, fetch: fetcher,
+    URL, Response, Headers, Date: Clock, fetch: fetcher,
     location: { hash: '' }, navigator: {},
     document: { querySelector: node, querySelectorAll: () => [], addEventListener() {} },
     window: { addEventListener() {} },
@@ -145,12 +149,39 @@ test('network failure without cached data shows the failure instead of a success
 });
 
 test('successful online reread retains the source timestamp and uses the online refresh message', async () => {
-  const { ui, node } = await interfaceHarness(async () => new Response(JSON.stringify({ ...previous, delivery: { mode: 'mirror' } })));
+  const { ui, node } = await interfaceHarness(async () => new Response(JSON.stringify({ ...previous, delivery: { mode: 'mirror', checkedAt: now.toISOString() } })));
   assert.equal(await ui.loadData(), true);
   assert.equal(node('#connection-banner').hidden, true);
   assert.equal(ui.getData().updatedAt, previous.updatedAt);
   await ui.refresh();
   assert.match(node('#toast').textContent, /已重新读取镜像内容/);
+  assert.match(node('#toast').textContent, /09:30 补同步/);
+  assert.match(node('#footer-update').textContent, /原数据更新.*镜像同步/);
+  assert.equal(node('#refresh-button span').textContent, '读取镜像');
+});
+
+test('HTTP 200 with stale data warns and never claims to have refreshed successfully', async () => {
+  const stale = { ...previous, updatedAt: '2026-10-20T00:00:00Z', delivery: { mode: 'mirror' } };
+  const { ui, node } = await interfaceHarness(async () => new Response(JSON.stringify(stale)));
+  assert.equal(await ui.loadData(), false);
+  assert.match(node('#connection-banner').innerHTML, /超过36小时/);
+  await ui.refresh();
+  assert.match(node('#toast').textContent, /暂未获取到新的镜像内容/);
+  assert.equal(ui.getData().updatedAt, stale.updatedAt);
+});
+
+test('HTTP 200 with a retained snapshot is not treated as a successful update', async () => {
+  const { ui, node } = await interfaceHarness(async () => new Response(JSON.stringify({ ...previous, delivery: { mode: 'snapshot' } })));
+  assert.equal(await ui.loadData(), false);
+  assert.match(node('#connection-banner').innerHTML, /同步未成功/);
+  await ui.refresh();
+  assert.match(node('#toast').textContent, /暂未获取到新的镜像内容/);
+});
+
+test('incomplete browser data is rejected instead of replacing saved collections', async () => {
+  const { ui } = await interfaceHarness(async () => new Response(JSON.stringify({ updatedAt: previous.updatedAt, campus: [] })), previous);
+  assert.equal(await ui.loadData(), false);
+  assert.equal(ui.getData().campus[0].title, '原始校园通知');
 });
 
 test('bundled data has valid collections and its original timestamp', async () => {
@@ -173,6 +204,46 @@ test('successful mirror fetch validates live data and preserves source timestamp
   assert.equal(result.data.delivery.mode, 'mirror');
   assert.equal(result.data.delivery.checkedAt, now.toISOString());
   assert.equal(result.data.schedule.time, '08:30');
+  assert.equal(result.data.schedule.fallbackTime, '09:30');
+});
+
+for (const [label, firstResponse] of [
+  ['network timeout', () => { throw new TypeError('Network unavailable'); }],
+  ['503', () => new Response('Temporarily unavailable', { status: 503 })],
+  ['429', () => new Response('Rate limited', { status: 429 })],
+  ['unfinished refresh', () => new Response(JSON.stringify({ ...previous, delivery: { mode: 'live' }, refreshing: true }))],
+]) {
+  test(`${label} is retried before publishing a complete live response`, async () => {
+    let calls = 0;
+    const source = { ...previous, delivery: { mode: 'live' }, refreshing: false };
+    const result = await updateSnapshot({ previous, now, sleep: async () => {}, fetcher: async () => {
+      if (++calls === 1) return firstResponse();
+      return new Response(JSON.stringify(source));
+    } });
+    assert.equal(result.ok, true);
+    assert.equal(calls, 2);
+    assert.equal(result.data.delivery.attempts, 2);
+    assert.equal(result.data.refreshing, false);
+  });
+}
+
+test('exhausted retries preserve old content and do not forge the data timestamp', async () => {
+  let calls = 0;
+  const result = await updateSnapshot({ previous, now, sleep: async () => {}, fetcher: async () => {
+    calls++;
+    return new Response('Temporarily unavailable', { status: 503 });
+  } });
+  assert.equal(calls, 3);
+  assert.equal(result.ok, false);
+  assert.equal(result.data.updatedAt, previous.updatedAt);
+  assert.deepEqual(result.data.campus, previous.campus);
+  assert.equal(result.data.delivery.mode, 'snapshot');
+});
+
+test('Pages workflow has a later backup sync after the 08:30 primary sync', async () => {
+  const workflow = await readFile(new URL('../.github/workflows/pages.yml', import.meta.url), 'utf8');
+  assert.match(workflow, /cron: '30 0 \* \* \*'/);
+  assert.match(workflow, /cron: '30 1 \* \* \*'/);
 });
 
 for (const [label, fetcher] of [
