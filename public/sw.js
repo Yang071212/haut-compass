@@ -1,7 +1,7 @@
-const CACHE = 'haut-compass-pages-v3';
+const CACHE = 'haut-compass-pages-v4';
 const BASE = new URL('./', self.location.href);
 const DATA_URL = new URL('./data/snapshot.json', BASE).href;
-const ASSETS = ['./', './style.css', './app.js?v=2', './icons.svg', './vendor/fuse.js',
+const ASSETS = ['./', './style.css', './app.js?v=3', './icons.svg', './vendor/fuse.js',
   './manifest.webmanifest', './icon-192.png', './icon-512.png', './data/snapshot.json'];
 
 self.addEventListener('install', (event) => {

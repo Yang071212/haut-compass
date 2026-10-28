@@ -1,10 +1,22 @@
-import { readFile, writeFile } from 'node:fs/promises';
+import { appendFile, readFile, writeFile } from 'node:fs/promises';
+import { isDeepStrictEqual } from 'node:util';
 import { pathToFileURL } from 'node:url';
 
 export const SOURCE_URL = 'https://haut-compass.vercel.app/api/data';
 const SNAPSHOT_URL = new URL('../public/data/snapshot.json', import.meta.url);
 const COLLECTIONS = ['campus', 'projects', 'competitions', 'frontier', 'sources'];
 const MAX_AGE_MS = 36 * 60 * 60 * 1000;
+const CHINA_DATE = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' });
+
+export const chinaDay = (value) => CHINA_DATE.format(new Date(value));
+
+export function shouldSaveSnapshot(previous, next) {
+  const content = ({ delivery, schedule, ...rest }) => rest;
+  return !isDeepStrictEqual(content(previous), content(next))
+    || !isDeepStrictEqual(previous.schedule, next.schedule)
+    || previous.delivery?.mode !== next.delivery?.mode
+    || previous.delivery?.warning !== next.delivery?.warning;
+}
 
 export function validateData(data) {
   if (!data || typeof data !== 'object' || !COLLECTIONS.every((key) => Array.isArray(data[key]))) {
@@ -16,11 +28,11 @@ export function validateData(data) {
   return data;
 }
 
-export async function updateSnapshot({ fetcher = globalThis.fetch, previous, now = new Date(), timeoutMs = 20000, maxAttempts = 3, retryDelayMs = 1500, sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)) } = {}) {
+export async function updateSnapshot({ fetcher = globalThis.fetch, previous, now = new Date(), requireCurrentDay = false, timeoutMs = 20000, maxAttempts = 3, retryDelayMs = 1500, sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)) } = {}) {
   validateData(previous);
   const checkedAt = new Date(now).toISOString();
   const nowMs = Date.parse(checkedAt);
-  const schedule = { enabled: true, time: '08:30', fallbackTime: '09:30', timezone: 'Asia/Shanghai' };
+  const schedule = { enabled: true, time: '08:30', fallbackTime: '09:17', fallbackUntil: '23:17', retryIntervalMinutes: 60, timezone: 'Asia/Shanghai', timing: 'best-effort' };
   try {
     let data;
     let attempts = 0;
@@ -42,6 +54,11 @@ export async function updateSnapshot({ fetcher = globalThis.fetch, previous, now
         if (data.delivery?.mode !== 'live') throw new Error('上游正在提供旧快照');
         if (data.refreshing) {
           const error = new Error('上游仍在采集，暂不发布中间数据');
+          error.retryable = true;
+          throw error;
+        }
+        if (requireCurrentDay && chinaDay(data.updatedAt) !== chinaDay(now)) {
+          const error = new Error('上游尚未完成今日采集，保留旧内容并等待补试');
           error.retryable = true;
           throw error;
         }
@@ -83,8 +100,14 @@ export async function updateSnapshot({ fetcher = globalThis.fetch, previous, now
 
 async function main() {
   const previous = JSON.parse(await readFile(SNAPSHOT_URL, 'utf8'));
-  const result = await updateSnapshot({ previous });
-  await writeFile(SNAPSHOT_URL, JSON.stringify(result.data));
+  const now = new Date();
+  const chinaTime = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Shanghai', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(now);
+  const result = await updateSnapshot({ previous, now, requireCurrentDay: chinaTime >= '08:30' });
+  const changed = shouldSaveSnapshot(previous, result.data);
+  if (changed) await writeFile(SNAPSHOT_URL, JSON.stringify(result.data));
+  if (process.env.GITHUB_OUTPUT) await appendFile(process.env.GITHUB_OUTPUT, `changed=${changed}\nsource_updated_at=${result.data.updatedAt}\n`);
+  if (process.env.GITHUB_STEP_SUMMARY) await appendFile(process.env.GITHUB_STEP_SUMMARY,
+    `### Public workbench sync\n\n- Source timestamp: ${result.data.updatedAt}\n- Current source accepted: ${result.ok}\n- Snapshot changed: ${changed}\n\nScheduled triggers may be delayed by GitHub. Unchanged hourly checks do not create commits or redeploy the site.\n`);
   console.log(result.ok
     ? `Mirror updated. Source data timestamp: ${result.data.updatedAt}`
     : `Mirror refresh failed; preserved source data timestamp: ${result.data.updatedAt}`);

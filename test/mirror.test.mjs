@@ -115,7 +115,7 @@ async function interfaceHarness(fetcher, storedData, clock = now) {
     localStorage: { getItem: (key) => storage.get(key) ?? null, setItem: (key, value) => storage.set(key, value) },
     setTimeout: () => 1, clearTimeout() {},
   });
-  vm.runInContext(`${await readFile(new URL('app.js', ROOT), 'utf8')}\nglobalThis.testUI={loadData,refresh,getData:()=>state.data};`, context);
+  vm.runInContext(`${await readFile(new URL('app.js', ROOT), 'utf8')}\nglobalThis.testUI={loadData,refresh,sourcesView,getData:()=>state.data};`, context);
   await context.testUI.loadData();
   return { ui: context.testUI, node };
 }
@@ -165,7 +165,7 @@ test('successful online reread retains the source timestamp and uses the online 
   assert.equal(ui.getData().updatedAt, previous.updatedAt);
   await ui.refresh();
   assert.match(node('#toast').textContent, /已重新读取镜像内容/);
-  assert.match(node('#toast').textContent, /09:30 补同步/);
+  assert.match(node('#toast').textContent, /09:17 起每小时补试至 23:17/);
   assert.match(node('#footer-update').textContent, /原数据更新.*镜像同步/);
   assert.equal(node('#refresh-button span').textContent, '读取镜像');
 });
@@ -178,6 +178,65 @@ test('HTTP 200 with stale data warns and never claims to have refreshed successf
   await ui.refresh();
   assert.match(node('#toast').textContent, /暂未获取到新的镜像内容/);
   assert.equal(ui.getData().updatedAt, stale.updatedAt);
+});
+
+for (const [label, checkedAt, updatedAt, warningExpected] of [
+  ['one second before Shanghai midnight', '2026-10-27T15:59:59Z', '2026-10-27T00:05:00Z', false],
+  ['Shanghai midnight begins a new day before its scheduled sync', '2026-10-27T16:00:00Z', '2026-10-27T00:05:00Z', false],
+  ['one second before Shanghai 08:30', '2026-10-28T00:29:59Z', '2026-10-27T00:05:00Z', false],
+  ['exactly Shanghai 08:30 with yesterday data', '2026-10-28T00:30:00Z', '2026-10-27T00:05:00Z', true],
+  ['one second after Shanghai 08:30', '2026-10-28T00:30:01Z', '2026-10-27T00:05:00Z', true],
+  ['recent data from the previous Shanghai date', '2026-10-28T00:30:00Z', '2026-10-27T15:59:59Z', true],
+  ['different UTC dates within the same Shanghai date', '2026-10-28T00:30:00Z', '2026-10-27T16:00:00Z', false],
+]) {
+  test(`${label} uses the Shanghai day without changing the original timestamp`, async () => {
+    const payload = { ...previous, updatedAt, delivery: { mode: 'mirror', checkedAt } };
+    const { ui, node } = await interfaceHarness(async () => new Response(JSON.stringify(payload)), undefined, new Date(checkedAt));
+    assert.equal(await ui.loadData(), !warningExpected);
+    assert.equal(ui.getData().updatedAt, updatedAt);
+    if (warningExpected) {
+      assert.equal(node('#connection-banner').hidden, false);
+      assert.match(node('#connection-banner').innerHTML, /今日自动同步尚未完成，当前原数据更新于/);
+      assert.match(node('#connection-banner').innerHTML, /定时任务可能延迟/);
+      assert.match(node('#connection-banner').innerHTML, /读取镜像不会触发后台采集/);
+      await ui.refresh();
+      assert.match(node('#toast').textContent, /暂未获取到新的镜像内容/);
+    } else {
+      assert.equal(node('#connection-banner').hidden, true);
+    }
+  });
+}
+
+for (const [label, updatedAt, expectedWarning] of [
+  ['more than 36 hours old', '2026-10-26T00:00:00Z', /超过36小时/],
+  ['missing timestamp', undefined, /缺少有效的原数据更新时间/],
+  ['invalid timestamp', 'not-a-time', /缺少有效的原数据更新时间/],
+  ['future timestamp', '2026-10-29T00:30:00Z', /原数据更新时间异常/],
+]) {
+  test(`${label} keeps its existing warning priority over the daily sync notice`, async () => {
+    const payload = { ...previous, updatedAt, delivery: { mode: 'mirror' } };
+    const { ui, node } = await interfaceHarness(async () => new Response(JSON.stringify(payload)), undefined, new Date('2026-10-28T00:30:00Z'));
+    assert.equal(await ui.loadData(), false);
+    assert.match(node('#connection-banner').innerHTML, expectedWarning);
+    assert.doesNotMatch(node('#connection-banner').innerHTML, /今日自动同步尚未完成/);
+    assert.equal(ui.getData().updatedAt, updatedAt);
+  });
+}
+
+test('offline cached data keeps its offline warning ahead of stale and daily notices', async () => {
+  const payload = { ...previous, updatedAt: '2026-10-26T00:00:00Z', delivery: { mode: 'mirror' } };
+  const { ui, node } = await interfaceHarness(() => offlineWorkerResponse(payload), undefined, new Date('2026-10-28T00:30:00Z'));
+  assert.equal(await ui.loadData(), false);
+  assert.match(node('#connection-banner').innerHTML, /上次缓存的内容/);
+  assert.doesNotMatch(node('#connection-banner').innerHTML, /今日自动同步尚未完成|超过36小时/);
+  assert.equal(ui.getData().updatedAt, payload.updatedAt);
+});
+
+test('the source screen describes daily hourly retries and read-only mirror behavior', async () => {
+  const payload = { ...previous, schedule: { enabled: true }, delivery: { mode: 'mirror' } };
+  const { ui } = await interfaceHarness(async () => new Response(JSON.stringify(payload)));
+  assert.match(ui.sourcesView(), /每日北京时间 08:30 尝试同步，09:17 起每小时补试至 23:17，GitHub 触发可能延迟/);
+  assert.match(ui.sourcesView(), /读取镜像.*只重读已发布内容，不触发后台采集/);
 });
 
 test('HTTP 200 with a retained snapshot is not treated as a successful update', async () => {
@@ -214,7 +273,10 @@ test('successful mirror fetch validates live data and preserves source timestamp
   assert.equal(result.data.delivery.mode, 'mirror');
   assert.equal(result.data.delivery.checkedAt, now.toISOString());
   assert.equal(result.data.schedule.time, '08:30');
-  assert.equal(result.data.schedule.fallbackTime, '09:30');
+  assert.equal(result.data.schedule.fallbackTime, '09:17');
+  assert.equal(result.data.schedule.fallbackUntil, '23:17');
+  assert.equal(result.data.schedule.retryIntervalMinutes, 60);
+  assert.equal(result.data.schedule.timing, 'best-effort');
 });
 
 for (const [label, firstResponse] of [
@@ -250,10 +312,10 @@ test('exhausted retries preserve old content and do not forge the data timestamp
   assert.equal(result.data.delivery.mode, 'snapshot');
 });
 
-test('Pages workflow has a later backup sync after the 08:30 primary sync', async () => {
+test('Pages workflow retries hourly through the Shanghai day after the 08:30 primary sync', async () => {
   const workflow = await readFile(new URL('../.github/workflows/pages.yml', import.meta.url), 'utf8');
   assert.match(workflow, /cron: '30 0 \* \* \*'/);
-  assert.match(workflow, /cron: '30 1 \* \* \*'/);
+  assert.match(workflow, /cron: '17 1-15 \* \* \*'/);
 });
 
 for (const [label, fetcher] of [
