@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#244b3b">
+  <meta name="description" content="河南工业大学学生的每日信息工作台。汇集校园资讯、GitHub 开源精选、学生竞赛与科技前沿，给成长一个清晰的方向。">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>工大 Compass · 你的每日工作台</title>
+  <link rel="icon" type="image/svg+xml" href="/icon.svg">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/vendor/fuse.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳转到内容</a>
+  <div class="mobile-veil" id="mobile-veil"></div>
+  <aside class="sidebar" id="sidebar" aria-label="主导航">
+    <a class="brand" href="#overview" aria-label="工大 Compass 首页">
+      <span class="brand-icon"><svg class="icon"><use href="/icons.svg#compass"></use></svg></span>
+      <span class="brand-words"><strong>工大 <span>Compass</span></strong><small>校园之内，视野之外</small></span>
+    </a>
+    <div class="workspace-label"><span class="tiny-dot"></span> 我的成长工作台 <span class="label-badge">BETA</span></div>
+    <nav class="navigation" id="navigation">
+      <span class="nav-caption">发现与探索</span>
+      <a href="#overview" class="nav-link active" data-nav="overview"><svg class="icon"><use href="/icons.svg#layout-dashboard"></use></svg><span>今日概览</span><span class="active-dot"></span></a>
+      <a href="#campus" class="nav-link" data-nav="campus"><svg class="icon"><use href="/icons.svg#graduation-cap"></use></svg><span>校园资讯</span><span class="nav-count" id="campus-count">—</span></a>
+      <a href="#projects" class="nav-link" data-nav="projects"><svg class="icon"><use href="/icons.svg#github"></use></svg><span>GitHub 精选</span></a>
+      <a href="#competitions" class="nav-link" data-nav="competitions"><svg class="icon"><use href="/icons.svg#trophy"></use></svg><span>竞赛雷达</span><span class="nav-new">探索</span></a>
+      <a href="#frontier" class="nav-link" data-nav="frontier"><svg class="icon"><use href="/icons.svg#orbit"></use></svg><span>科技前沿</span></a>
+      <span class="nav-caption second-caption">我的空间</span>
+      <a href="#saved" class="nav-link" data-nav="saved"><svg class="icon"><use href="/icons.svg#bookmark"></use></svg><span>我的收藏</span><span class="nav-count" id="saved-count">0</span></a>
+      <a href="#sources" class="nav-link" data-nav="sources"><svg class="icon"><use href="/icons.svg#radio"></use></svg><span>信息源</span><span class="source-dot" id="source-dot"></span></a>
+    </nav>
+    <div class="sidebar-bottom">
+      <button class="install-card" data-action="install"><span class="install-icon"><svg class="icon"><use href="/icons.svg#monitor-smartphone"></use></svg></span><span><strong>让工作台触手可及</strong><small>添加到电脑或手机桌面</small></span><svg class="icon small"><use href="/icons.svg#arrow-up-right"></use></svg></button>
+      <div class="sidebar-foot"><span class="avatar">H</span><span><strong>向上生长的你</strong><small>为工大学生而做</small></span><svg class="icon"><use href="/icons.svg#sprout"></use></svg></div>
+    </div>
+  </aside>
+
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="topbar-left"><button class="icon-button menu-button" data-action="menu" aria-label="打开导航" aria-expanded="false"><svg class="icon"><use href="/icons.svg#menu"></use></svg></button><span class="breadcrumb">我的工作台 <svg class="icon small"><use href="/icons.svg#chevron-right"></use></svg> <strong id="breadcrumb-current">今日概览</strong></span></div>
+      <div class="topbar-right"><span class="header-date" id="header-date"></span><span class="topbar-divider"></span><button class="icon-button" data-action="install" aria-label="安装工作台" title="添加到桌面"><svg class="icon"><use href="/icons.svg#download"></use></svg></button><span class="top-avatar" title="为工大学生而做">H</span></div>
+    </header>
+    <main id="main-content" tabindex="-1">
+      <div class="page-heading">
+        <div><div class="eyebrow" id="page-eyebrow">YOUR DAILY COMPASS</div><h1 id="page-title">今天，也向前一点。</h1><p id="page-description">连接校园的每一份机会，与值得探索的更大世界。</p></div>
+        <div class="heading-actions"><div class="search-box"><svg class="icon"><use href="/icons.svg#search"></use></svg><input type="search" id="global-search" autocomplete="off" placeholder="搜索资讯、项目、竞赛…" aria-label="搜索所有内容"><kbd>/</kbd><button class="clear-search" data-action="clear-search" aria-label="清空搜索" hidden><svg class="icon small"><use href="/icons.svg#x"></use></svg></button></div><button class="refresh-button" id="refresh-button" data-action="refresh"><svg class="icon"><use href="/icons.svg#refresh-cw"></use></svg><span>更新</span></button></div>
+      </div>
+      <div id="connection-banner" class="connection-banner" role="status" hidden></div>
+      <div id="content" aria-live="polite" aria-busy="true"><div class="loading-layout"><div class="skeleton skeleton-hero"></div><div class="skeleton-stat-row"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div><div class="skeleton skeleton-content"></div><span class="loading-label">正在连接你的信息坐标…</span></div></div>
+      <footer class="page-footer"><span><span class="footer-compass">✦</span> 工大 Compass <span class="footer-separator">/</span> 为工大学生而做</span><a href="/licenses.txt" target="_blank" rel="noopener">开源许可</a><span id="footer-update">正在获取更新状态</span><button data-action="navigate" data-view="sources">查看信息源 <svg class="icon small"><use href="/icons.svg#arrow-up-right"></use></svg></button></footer>
+    </main>
+  </div>
+  <nav class="mobile-bottom-nav" aria-label="移动端快捷导航"><a href="#overview" data-nav="overview" class="active"><svg class="icon"><use href="/icons.svg#layout-dashboard"></use></svg><span>概览</span></a><a href="#campus" data-nav="campus"><svg class="icon"><use href="/icons.svg#graduation-cap"></use></svg><span>校园</span></a><a href="#projects" data-nav="projects"><svg class="icon"><use href="/icons.svg#github"></use></svg><span>开源</span></a><a href="#competitions" data-nav="competitions"><svg class="icon"><use href="/icons.svg#trophy"></use></svg><span>竞赛</span></a><button data-action="menu"><svg class="icon"><use href="/icons.svg#menu"></use></svg><span>更多</span></button></nav>
+  <div class="drawer-veil" id="drawer-veil" hidden></div>
+  <aside class="detail-drawer" id="detail-drawer" role="dialog" aria-modal="true" aria-label="内容详情" tabindex="-1" hidden></aside>
+  <div class="toast" id="toast" role="status" hidden></div>
+</body>
+</html>

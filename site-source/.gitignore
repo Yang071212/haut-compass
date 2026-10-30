@@ -1,0 +1,9 @@
+dist/
+site.tar.gz
+node_modules/
+.runtime/
+worker/assets.generated.js
+*.png
+!web/icon-192.png
+!web/icon-512.png
+test-results/

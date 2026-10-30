@@ -27,3 +27,9 @@ python -m http.server 8787 --directory public
 浏览器访问 `http://localhost:8787/`。测试检查资源在 `/haut-compass/` 子路径下的解析、PWA 路径、JSON 数据形状与更新时间，以及同步成功/失败的语义。原始数据仍以学校或赛事官方通知为准。
 
 开源资源许可保留于 `public/licenses.txt`，包括 Lucide 和 Fuse.js。
+
+## 修复源码同步（2026-10-30）
+
+`site-source/` 保存 Sites 线上第 4 版的完整源码（提交 `691e5a642aa4fca1e11f2e3c3990026c99e4496a`），含编码识别、GitHub 错误恢复和刷新期间策展保护的修复及回归测试。该目录独立于 Pages：在其中运行 `npm ci && npm run build && npm test`。Pages 仍发布 `public/`，不运行 Worker。
+
+本次 `public/data/snapshot.json` 同步已完成维护核验的工作台快照，保留原始采集时间、策展时间与真实失败状态；不是重新抓取或提前更新信息日期。后续定时同步仍使用上述 Vercel 公开数据源，并保留失败提示，尚未改为直接抓取 Sites。

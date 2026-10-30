@@ -1,0 +1,23 @@
+{
+  "school": {
+    "checkedAt": "2026-10-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "44个河南工业大学官方渠道，经学校机构目录核实归属；12条校讯与11项竞赛/训练入口。",
+    "limitations": [
+      "公开网页和校内登录信息分开；学校部分综合通知、学生手册、团委正文需VPN或校园网，未绕过访问限制。",
+      "信息渠道覆盖学校主要职能部门、全部学院目录中的教学学院和部分研究机构，不能声称穷尽微信公众号、班群、校内系统或所有二级栏目。",
+      "source.access=directory-confirmed表示核实官方归属，未逐个证明首页当前可抓取；部分站点发生超时或首页旧链接失效。",
+      "职业规划大赛校内报名具体时间未核实；11月10日为学院初赛节点。",
+      "赛事报名状态按2026-10-23判断，日后需要重新计算截止与重新抓取通知。"
+    ],
+    "officialDirectory": "https://www.haut.edu.cn/jgsz1.htm"
+  },
+  "github": {
+    "verifiedAt": "2026-10-23T15:20:48.349800+00:00",
+    "clientDate": "2026-10-23",
+    "method": "GitHub public REST API; repository metadata and latest official releases",
+    "dateNote": "API Date header and published_at retained; GitHub /releases/latest selects the latest non-prerelease release, which may differ from newest preview build.",
+    "errors": [],
+    "licenseNote": "NOASSERTION 表示 GitHub 未自动识别标准 SPDX，未标明表示元数据未提供许可证；它们都不能视为可任意复制的许可。推荐链接学习；实际复用须核对仓库 LICENSE。"
+  }
+}
