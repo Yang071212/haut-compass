@@ -2,7 +2,7 @@ import { appendFile, readFile, writeFile } from 'node:fs/promises';
 import { isDeepStrictEqual } from 'node:util';
 import { pathToFileURL } from 'node:url';
 
-export const SOURCE_URL = 'https://haut-compass.vercel.app/api/data';
+export const SOURCE_URL = 'https://haut-compass.yang2014733256.chatgpt.site/api/data';
 const SNAPSHOT_URL = new URL('../public/data/snapshot.json', import.meta.url);
 const COLLECTIONS = ['campus', 'projects', 'competitions', 'frontier', 'sources'];
 const MAX_AGE_MS = 36 * 60 * 60 * 1000;
@@ -51,7 +51,7 @@ export async function updateSnapshot({ fetcher = globalThis.fetch, previous, now
           throw error;
         }
         data = validateData(await response.json());
-        if (data.delivery?.mode !== 'live') throw new Error('上游正在提供旧快照');
+        if (!(data.delivery?.mode === 'live' || (!data.delivery && data.storageReady === true))) throw new Error('上游正在提供旧快照或数据存储未就绪');
         if (data.refreshing) {
           const error = new Error('上游仍在采集，暂不发布中间数据');
           error.retryable = true;
@@ -117,3 +117,4 @@ async function main() {
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   await main();
 }
+

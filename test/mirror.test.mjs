@@ -279,6 +279,20 @@ test('successful mirror fetch validates live data and preserves source timestamp
   assert.equal(result.data.schedule.timing, 'best-effort');
 });
 
+test('Sites persisted data can be mirrored without a delivery field', async () => {
+  const source = { ...previous, storageReady: true, refreshing: false };
+  const result = await updateSnapshot({ previous, now, fetcher: async () => new Response(JSON.stringify(source)) });
+  assert.equal(result.ok, true);
+  assert.equal(result.data.updatedAt, source.updatedAt);
+  assert.equal(result.data.delivery.mode, 'mirror');
+});
+
+test('Sites data without confirmed storage is not published', async () => {
+  const result = await updateSnapshot({ previous, now, fetcher: async () => new Response(JSON.stringify({ ...previous, storageReady: false })) });
+  assert.equal(result.ok, false);
+  assert.equal(result.data.delivery.mode, 'snapshot');
+});
+
 for (const [label, firstResponse] of [
   ['network timeout', () => { throw new TypeError('Network unavailable'); }],
   ['503', () => new Response('Temporarily unavailable', { status: 503 })],
@@ -341,3 +355,4 @@ test('all first-party JavaScript parses', async () => {
     execFileSync(process.execPath, ['--check', fileURLToPath(new URL(target, import.meta.url))]);
   }
 });
+
