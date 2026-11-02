@@ -1,0 +1,13 @@
+name: Check Sites data source
+on:
+  push:
+    branches: [check-sites-sync-20261102]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check published source
+        run: |
+          node -e "fetch('https://haut-compass.yang2014733256.chatgpt.site/api/data').then(async r => { console.log('HTTP', r.status); if (!r.ok) process.exit(1); const d = await r.json(); console.log('updatedAt', d.updatedAt, 'storageReady', d.storageReady, 'refreshing', d.refreshing); if (!d.storageReady || d.refreshing || !['campus','projects','competitions','frontier','sources'].every(k => Array.isArray(d[k]))) process.exit(1); }).catch(e => { console.error(e.message); process.exit(1) })"
