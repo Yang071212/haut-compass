@@ -34,3 +34,5 @@ python -m http.server 8787 --directory public
 
 本次 `public/data/snapshot.json` 同步已完成维护核验的工作台快照，保留原始采集时间、策展时间与真实失败状态；不是重新抓取或提前更新信息日期。后续定时同步直接读取上述 Sites 公开数据源，并保留失败提示。
 
+
+同步前会确认 Sites 存储可用、采集已结束，并验证数据时间，失败时保留上次快照。
