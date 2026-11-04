@@ -59,3 +59,28 @@ test('GitHub quota preserves verified fields and recovery clears the old error',
  const recovered=await collect(failed,seed,{now,fetcher:async()=>Response.json({stargazers_count:125,pushed_at:'2026-10-22T00:00:00Z'})});
  assert.equal(recovered.projects[0].error,null);assert.equal(recovered.projects[0].status,'ok');assert.equal(recovered.projects[0].verifiedAt,now.toISOString());
 });
+
+test('complexity institute notices use split publication dates instead of event dates', async () => {
+ const {parseCampus}=await import('../lib/collector.js');
+ const source={id:'complexity',name:'复杂性科学研究院',url:'https://cs.haut.edu.cn/',category:'科研学术'};
+ const html='<a href="info/1421/9834.htm" title="复杂性科学研究院召开全体师生大会的通知"><div class="date"><span class="dd">03</span><span class="mm">2026-11</span></div><div>会议时间2026年11月10日</div></a>';
+ const items=parseCampus(html,source,new Date('2026-11-04T00:00:00Z'));
+ assert.equal(items.length,1);
+ assert.equal(items[0].date,'2026-11-03');
+});
+
+test('invalid dates are not treated as publication dates', async () => {
+ const {dateIn,selectCampus}=await import('../lib/collector.js');
+ assert.equal(dateIn('2026年9月72日'),null);
+ assert.equal(dateIn('2026-02-29'),null);
+ assert.equal(selectCampus([{url:'https://a.haut.edu.cn/info/1/1111.htm',date:'2026-09-72'}],[])[0].date,null);
+});
+
+test('campus retention includes undated sources when the snapshot is full', async () => {
+ const {selectCampus}=await import('../lib/collector.js');
+ const items=Array.from({length:5},(_,i)=>({url:`https://a.haut.edu.cn/info/1/${1000+i}.htm`,sourceId:'a',date:'2026-10-01'}));
+ items.push({url:'https://b.haut.edu.cn/info/1/1111.htm',sourceId:'b',date:null});
+ const selected=selectCampus(items,[{id:'a',kind:'campus'},{id:'b',kind:'campus'}],4);
+ assert.equal(selected.length,4);
+ assert.equal(selected.find(i=>i.sourceId==='b').date,null);
+});

@@ -1366,6 +1366,61 @@
       "status": "pending",
       "lastChecked": null,
       "lastSuccessAt": null
+    },
+    {
+      "id": "aidata-notices",
+      "name": "人工智能与大数据学院·通知公告",
+      "url": "https://aidata.haut.edu.cn/xwtz/tzgg.htm",
+      "category": "校园通知",
+      "description": "官网通知公告列表，发布日期以原文为准",
+      "kind": "campus",
+      "status": "pending",
+      "lastChecked": null,
+      "lastSuccessAt": null
+    },
+    {
+      "id": "mingde-notices",
+      "name": "明德书院·通知公告",
+      "url": "https://mdsy.haut.edu.cn/xwtz/tzgg.htm",
+      "category": "校园通知",
+      "description": "官网通知公告列表，发布日期以原文为准",
+      "kind": "campus",
+      "status": "pending",
+      "lastChecked": null,
+      "lastSuccessAt": null
+    },
+    {
+      "id": "youth-notices",
+      "name": "校团委·通知公告",
+      "url": "https://youth.haut.edu.cn/xwdt/tzgg.htm",
+      "category": "校园通知",
+      "description": "官网通知公告列表，发布日期以原文为准",
+      "kind": "campus",
+      "status": "pending",
+      "lastChecked": null,
+      "lastSuccessAt": null
+    },
+    {
+      "id": "grain-notices",
+      "name": "粮食和物资储备学院·通知公告",
+      "url": "https://lswz.haut.edu.cn/index/tzgg.htm",
+      "category": "校园通知",
+      "description": "官网通知公告列表，发布日期以原文为准",
+      "kind": "campus",
+      "status": "pending",
+      "lastChecked": null,
+      "lastSuccessAt": null
+    },
+    {
+      "id": "international-notices",
+      "name": "国际交流与合作处·通知公告",
+      "url": "https://gjjl.haut.edu.cn/tzgg.htm",
+      "category": "校园通知",
+      "description": "官网通知公告列表，发布日期以原文为准",
+      "kind": "campus",
+      "status": "pending",
+      "lastChecked": null,
+      "lastSuccessAt": null
     }
   ],
   "refreshing": false,

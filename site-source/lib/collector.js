@@ -8,7 +8,7 @@ export function canonical(raw, base) {
 }
 export function dateIn(text, now=new Date()) {
   const full=String(text).match(/(20\d{2})[年\-/.](\d{1,2})[月\-/.](\d{1,2})/);
-  if(full) return `${full[1]}-${full[2].padStart(2,'0')}-${full[3].padStart(2,'0')}`;
+  if(full) { const y=Number(full[1]),m=Number(full[2]),d=Number(full[3]); const check=new Date(Date.UTC(y,m-1,d)); if(check.getUTCFullYear()===y && check.getUTCMonth()===m-1 && check.getUTCDate()===d) return `${full[1]}-${full[2].padStart(2,'0')}-${full[3].padStart(2,'0')}`; }
   return null;
 }
 export function dedupe(items) {
@@ -40,14 +40,28 @@ export function parseCampus(html, source, now=new Date()) {
     const host=new URL(url).hostname;
     if(!(host==='haut.edu.cn'||host.endsWith('.haut.edu.cn'))) return;
     if(!/\/(info|content|article)\/|\/module\/(?:newsdetail|campustalkdetail|recruitmentdetail)\/|\/\d{4,}\.htm(?:l)?|[?&](?:id|articleId)=/i.test(url))return;
-    let date=null; let context=a;
-    for(let level=0;level<4;level++) { const text=clean(context.text()); if(text.length>700)break; date=dateIn(text,now); if(date)break; context=context.parent(); }
+    // The institute homepage separates its publication day and year-month.
+    // Read those fields before any date mentioned in the article summary.
+    const day=clean(a.find('.date .dd').first().text());
+    const month=clean(a.find('.date .mm').first().text());
+    let date=source.id==='complexity' && /^\d{1,2}$/.test(day) && /^20\d{2}-\d{2}$/.test(month) ? dateIn(`${month}-${day.padStart(2,'0')}`,now) : null;
+    let context=a;
+    for(let level=0;!date && level<4;level++) { const text=clean(context.text()); if(text.length>700)break; date=dateIn(text,now); if(date)break; context=context.parent(); }
     if(!date) date=dateIn(url,now);
     if(date && date>dayCN(now)) return;
     const category=/竞赛|大赛|挑战杯|创新创业/.test(title)?'竞赛活动': /考试|选课|教学|学籍|教务|课程|四六级/.test(title)?'教务通知': /奖学金|资助|评优|学生|心理|宿舍/.test(title)?'学生事务': /招聘|就业|实习/.test(title)?'就业实习': source.category||'校园动态';
     items.push({id:'campus-'+url,title,url,sourceId:source.id,source:source.name,date,category,summary:'来自'+source.name+'的公开信息，具体要求请查看官方原文。',collectedAt:now.toISOString()});
   });
   return dedupe(items).sort((a,b)=>(b.date||'').localeCompare(a.date||'')).slice(0,24);
+}
+// Keep a small share for each configured campus source, including sources whose
+// pages omit the year. Undated entries remain explicitly undated.
+export function selectCampus(items,sources,limit=400) {
+  const sorted=items.map(i=>({...i,date:i.date && dateIn(i.date)===i.date ? i.date : null})).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+  const reserved=[];
+  for(const source of sources.filter(s=>s.kind==='campus')) reserved.push(...sorted.filter(i=>i.sourceId===source.id).slice(0,2));
+  const chosen=dedupe([...reserved,...sorted]).slice(0,limit);
+  return chosen.sort((a,b)=>(b.date||'').localeCompare(a.date||''));
 }
 export function parseFeed(xml, source, now=new Date()) {
   const parser=new XMLParser({ignoreAttributes:false,attributeNamePrefix:'@_',processEntities:true});
@@ -97,7 +111,7 @@ export async function collect(previous, seed, options={}) {
   let campus=[];let frontier=[]; const sources=[];
   for(const r of results){if(!r.source)continue;sources.push(r.source);const key=r.source.kind==='feed'?'frontier':'campus'; const items=r.items||(previous[key]||[]).filter(i=>i.sourceId===r.source.id); if(key==='campus')campus.push(...items);else frontier.push(...items);}
   // Human-verified initial records remain available when the upstream list cannot be read.
-  campus=mergeLive(previous.campus||[],seed.campus||[],campus).sort((a,b)=>(b.date||'').localeCompare(a.date||'')).slice(0,400);
+  campus=selectCampus(mergeLive(previous.campus||[],seed.campus||[],campus),sources);
   frontier=mergeLive(previous.frontier||[],seed.frontier||[],frontier).sort((a,b)=>(b.date||'').localeCompare(a.date||'')).slice(0,80);
   const projectDefs=[...(previous.projects||[]),...(seed.projects||[])].filter((p,i,all)=>all.findIndex(q=>q.repo===p.repo)===i).slice(0,30);
   const projectResults=await pool(projectDefs,5,async project=>{
