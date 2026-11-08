@@ -235,7 +235,7 @@ test('offline cached data keeps its offline warning ahead of stale and daily not
 test('the source screen describes daily hourly retries and read-only mirror behavior', async () => {
   const payload = { ...previous, schedule: { enabled: true }, delivery: { mode: 'mirror' } };
   const { ui } = await interfaceHarness(async () => new Response(JSON.stringify(payload)));
-  assert.match(ui.sourcesView(), /每日北京时间 08:30 尝试同步，07:00 起每小时补试至 23:00，GitHub 触发可能延迟/);
+  assert.match(ui.sourcesView(), /每日北京时间 06:00 尝试同步，07:00 起每小时补试至 23:00，GitHub 触发可能延迟/);
   assert.match(ui.sourcesView(), /读取镜像.*只重读已发布内容，不触发后台采集/);
 });
 
