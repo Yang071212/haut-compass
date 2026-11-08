@@ -5,9 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: '30 0 * * *'
-    # Best-effort catch-up from 09:17 through 23:17 Asia/Shanghai.
-    - cron: '17 1-15 * * *'
+    - cron: '0 22 * * *'
+    # 22:00 UTC is 06:00 Asia/Shanghai on the following day.
+    # Best-effort catch-up from 07:00 through 23:00 Asia/Shanghai.
+    - cron: '0 23,0-15 * * *'
 
 permissions:
   contents: write
