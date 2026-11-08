@@ -5,7 +5,7 @@ import { chinaDay, shouldSaveSnapshot, updateSnapshot } from '../scripts/update-
 const previous = {
   updatedAt: '2026-10-27T00:05:00.000Z',
   campus: [{ title: 'Yesterday' }], projects: [], competitions: [], frontier: [], sources: [],
-  schedule: { enabled: true, time: '08:30', fallbackTime: '09:17', fallbackUntil: '23:17', retryIntervalMinutes: 60, timezone: 'Asia/Shanghai', timing: 'best-effort' },
+  schedule: { enabled: true, time: '06:00', fallbackTime: '07:00', fallbackUntil: '23:00', retryIntervalMinutes: 60, timezone: 'Asia/Shanghai', timing: 'best-effort' },
   delivery: { mode: 'mirror', checkedAt: '2026-10-27T00:30:00.000Z', upstreamMode: 'live', attempts: 1 },
 };
 const now = new Date('2026-10-28T01:00:00.000Z');
@@ -31,7 +31,7 @@ test('catch-up retries an unfinished daily source and accepts the completed curr
   assert.equal(result.ok, true);
   assert.equal(result.data.updatedAt, fresh.updatedAt);
   assert.equal(result.data.delivery.attempts, 2);
-  assert.equal(result.data.schedule.fallbackUntil, '23:17');
+  assert.equal(result.data.schedule.fallbackUntil, '23:00');
 });
 
 test('hourly checks do not rewrite a snapshot solely to advance its check time', () => {
