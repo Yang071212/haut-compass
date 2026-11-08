@@ -32,7 +32,7 @@ export async function updateSnapshot({ fetcher = globalThis.fetch, previous, now
   validateData(previous);
   const checkedAt = new Date(now).toISOString();
   const nowMs = Date.parse(checkedAt);
-  const schedule = { enabled: true, time: '08:30', fallbackTime: '09:17', fallbackUntil: '23:17', retryIntervalMinutes: 60, timezone: 'Asia/Shanghai', timing: 'best-effort' };
+  const schedule = { enabled: true, time: '06:00', fallbackTime: '07:00', fallbackUntil: '23:00', retryIntervalMinutes: 60, timezone: 'Asia/Shanghai', timing: 'best-effort' };
   try {
     let data;
     let attempts = 0;
@@ -102,7 +102,7 @@ async function main() {
   const previous = JSON.parse(await readFile(SNAPSHOT_URL, 'utf8'));
   const now = new Date();
   const chinaTime = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Shanghai', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(now);
-  const result = await updateSnapshot({ previous, now, requireCurrentDay: chinaTime >= '08:30' });
+  const result = await updateSnapshot({ previous, now, requireCurrentDay: chinaTime >= '06:00' });
   const changed = shouldSaveSnapshot(previous, result.data);
   if (changed) await writeFile(SNAPSHOT_URL, JSON.stringify(result.data));
   if (process.env.GITHUB_OUTPUT) await appendFile(process.env.GITHUB_OUTPUT, `changed=${changed}\nsource_updated_at=${result.data.updatedAt}\n`);
