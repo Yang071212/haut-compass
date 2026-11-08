@@ -328,8 +328,8 @@ test('exhausted retries preserve old content and do not forge the data timestamp
 
 test('Pages workflow retries hourly through the Shanghai day after the 06:00 primary sync', async () => {
   const workflow = await readFile(new URL('../.github/workflows/pages.yml', import.meta.url), 'utf8');
-  assert.match(workflow, /cron: '30 0 \* \* \*'/);
-  assert.match(workflow, /cron: '17 1-15 \* \* \*'/);
+  assert.match(workflow, /cron: '0 22 \\* \\* \\*'/);
+  assert.match(workflow, /cron: '0 23,0-15 \\* \\* \\*'/);
 });
 
 for (const [label, fetcher] of [
