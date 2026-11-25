@@ -55,10 +55,16 @@ jobs:
         if: github.event_name != 'schedule' || steps.refresh.outputs.changed == 'true'
         with:
           path: public
+          name: github-pages-${{ github.run_attempt }}
+      - name: Wait for the Pages artifact to become visible
+        if: github.event_name != 'schedule' || steps.refresh.outputs.changed == 'true'
+        run: sleep 15
       - name: Publish public static site
         id: deployment
         if: github.event_name != 'schedule' || steps.refresh.outputs.changed == 'true'
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
       - name: Report that retained content was published
         if: steps.refresh.outcome == 'failure'
         run: |
