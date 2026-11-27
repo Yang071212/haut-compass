@@ -1,8 +1,96 @@
 {
-  "updatedAt": "2026-11-26T21:58:58.703Z",
+  "updatedAt": "2026-11-27T22:02:21.610Z",
   "initialVerifiedAt": "2026-10-23T15:20:48.349800+00:00",
-  "lastAttemptAt": "2026-11-26T21:58:58.703Z",
+  "lastAttemptAt": "2026-11-27T22:02:21.610Z",
   "campus": [
+    {
+      "id": "campus-https://hqjt.haut.edu.cn/info/1072/12317.htm",
+      "title": "副校长刘红军为后勤服务中心宣讲党的二十届五中全会精神",
+      "url": "https://hqjt.haut.edu.cn/info/1072/12317.htm",
+      "sourceId": "logistics",
+      "source": "后勤服务中心",
+      "date": "2026-11-27",
+      "category": "校园生活",
+      "summary": "来自后勤服务中心的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://lxy.haut.edu.cn/info/1016/18694.htm",
+      "title": "2026-11-27 河南工业大学拟对热蒸发镀膜仪进行分散采购",
+      "url": "https://lxy.haut.edu.cn/info/1016/18694.htm",
+      "sourceId": "physics",
+      "source": "物理与新能源学院",
+      "date": "2026-11-27",
+      "category": "学院动态",
+      "summary": "来自物理与新能源学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://swxy.haut.edu.cn/info/1073/26873.htm",
+      "title": "生物工程学院开展2027届毕业生考研慰问活动",
+      "url": "https://swxy.haut.edu.cn/info/1073/26873.htm",
+      "sourceId": "bio",
+      "source": "生物工程学院",
+      "date": "2026-11-27",
+      "category": "学院动态",
+      "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://swxy.haut.edu.cn/info/1073/26863.htm",
+      "title": "“一站式”社区 || 生物工程学院开展“情暖寒冬，助梦前行”冬季送温暖活动",
+      "url": "https://swxy.haut.edu.cn/info/1073/26863.htm",
+      "sourceId": "bio",
+      "source": "生物工程学院",
+      "date": "2026-11-27",
+      "category": "学院动态",
+      "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://cee.haut.edu.cn/info/1029/14731.htm",
+      "title": "电气工程学院举行“青马工程”培训班 开班仪式暨学生骨干中级团课",
+      "url": "https://cee.haut.edu.cn/info/1029/14731.htm",
+      "sourceId": "electrical",
+      "source": "电气工程学院",
+      "date": "2026-11-27",
+      "category": "学生事务",
+      "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://hjgc.haut.edu.cn/info/1026/18140.htm",
+      "title": "“一站式”社区 || 环境工程学院领导及教师深入学生社区开展宿舍安全检查及学生慰问工作",
+      "url": "https://hjgc.haut.edu.cn/info/1026/18140.htm",
+      "sourceId": "environment",
+      "source": "环境工程学院",
+      "date": "2026-11-27",
+      "category": "学生事务",
+      "summary": "来自环境工程学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://glxy.haut.edu.cn/info/1097/23738.htm",
+      "title": "我院教师在河南省教育系统2026年度教学技能竞...",
+      "url": "https://glxy.haut.edu.cn/info/1097/23738.htm",
+      "sourceId": "management",
+      "source": "管理学院",
+      "date": "2026-11-27",
+      "category": "教务通知",
+      "summary": "来自管理学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://pe.haut.edu.cn/info/1024/9193.htm",
+      "title": "“七秩工大 薪火赓续”关于举办河南工业大学第七届体育文化节暨第一届武术比赛的通知",
+      "url": "https://pe.haut.edu.cn/info/1024/9193.htm",
+      "sourceId": "sports",
+      "source": "体育学院",
+      "date": "2026-11-27",
+      "category": "学院动态",
+      "summary": "来自体育学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
     {
       "id": "campus-https://lib.haut.edu.cn/info/1162/18725.htm",
       "title": "2026-11-26图书馆联合学校保卫处开展消防疏散演练",
@@ -12,18 +100,29 @@
       "date": "2026-11-26",
       "category": "学习资源",
       "summary": "来自图书馆的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
-      "id": "campus-https://swxy.haut.edu.cn/info/1073/26843.htm",
-      "title": "校大学生理论宣讲团走进生物工程学院开展长征精神主题宣讲",
-      "url": "https://swxy.haut.edu.cn/info/1073/26843.htm",
-      "sourceId": "bio",
-      "source": "生物工程学院",
+      "id": "campus-https://sxytj.haut.edu.cn/info/1711/17361.htm",
+      "title": "校青年讲师团、大学生理论宣讲团走进数学与统计学院开展宣讲会",
+      "url": "https://sxytj.haut.edu.cn/info/1711/17361.htm",
+      "sourceId": "math",
+      "source": "数学与统计学院",
       "date": "2026-11-26",
       "category": "学生事务",
-      "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "summary": "来自数学与统计学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://tj.haut.edu.cn/info/1088/23943.htm",
+      "title": "土木工程学院（建筑学院）开展研究生科研诚信政策解读与失信风险防范教...",
+      "url": "https://tj.haut.edu.cn/info/1088/23943.htm",
+      "sourceId": "civil",
+      "source": "土木工程学院（建筑学院）",
+      "date": "2026-11-26",
+      "category": "学院动态",
+      "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://cee.haut.edu.cn/info/1008/14721.htm",
@@ -34,7 +133,18 @@
       "date": "2026-11-26",
       "category": "学院动态",
       "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://swxy.haut.edu.cn/info/1073/26843.htm",
+      "title": "校大学生理论宣讲团走进生物工程学院开展长征精神主题宣讲",
+      "url": "https://swxy.haut.edu.cn/info/1073/26843.htm",
+      "sourceId": "bio",
+      "source": "生物工程学院",
+      "date": "2026-11-26",
+      "category": "学生事务",
+      "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lib.haut.edu.cn/info/1162/18715.htm",
@@ -45,7 +155,7 @@
       "date": "2026-11-25",
       "category": "学习资源",
       "summary": "来自图书馆的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://hqjt.haut.edu.cn/info/1072/12307.htm",
@@ -56,7 +166,7 @@
       "date": "2026-11-25",
       "category": "校园生活",
       "summary": "来自后勤服务中心的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sxytj.haut.edu.cn/info/1711/17311.htm",
@@ -67,7 +177,7 @@
       "date": "2026-11-25",
       "category": "教务通知",
       "summary": "来自数学与统计学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1088/23923.htm",
@@ -78,18 +188,7 @@
       "date": "2026-11-25",
       "category": "教务通知",
       "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
-    },
-    {
-      "id": "campus-https://tj.haut.edu.cn/info/1088/23913.htm",
-      "title": "建筑环境与能源应用工程系开展 “智汇课堂·研以致用”教学培训沙龙交流...",
-      "url": "https://tj.haut.edu.cn/info/1088/23913.htm",
-      "sourceId": "civil",
-      "source": "土木工程学院（建筑学院）",
-      "date": "2026-11-25",
-      "category": "教务通知",
-      "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11824.htm",
@@ -100,7 +199,7 @@
       "date": "2026-11-25",
       "category": "学生事务",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11814.htm",
@@ -111,7 +210,7 @@
       "date": "2026-11-25",
       "category": "学生事务",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://gradstu.haut.edu.cn/info/1117/10819.htm",
@@ -122,7 +221,7 @@
       "date": "2026-11-25",
       "category": "教务通知",
       "summary": "来自研究生院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://hxhgyhjxy.haut.edu.cn/info/1174/31047.htm",
@@ -133,18 +232,7 @@
       "date": "2026-11-25",
       "category": "学院动态",
       "summary": "来自化学化工学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
-    },
-    {
-      "id": "campus-https://cee.haut.edu.cn/info/1029/14711.htm",
-      "title": "七秩工大正青春，光翊篮坛展风采 ——电气工程学院成功举办第三届“光翊杯”篮球赛",
-      "url": "https://cee.haut.edu.cn/info/1029/14711.htm",
-      "sourceId": "electrical",
-      "source": "电气工程学院",
-      "date": "2026-11-25",
-      "category": "学院动态",
-      "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://hjgc.haut.edu.cn/info/1026/18130.htm",
@@ -155,7 +243,7 @@
       "date": "2026-11-25",
       "category": "学院动态",
       "summary": "来自环境工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://glxy.haut.edu.cn/info/1089/23618.htm",
@@ -166,7 +254,29 @@
       "date": "2026-11-25",
       "category": "教务通知",
       "summary": "来自管理学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://tj.haut.edu.cn/info/1088/23913.htm",
+      "title": "建筑环境与能源应用工程系开展 “智汇课堂·研以致用”教学培训沙龙交流...",
+      "url": "https://tj.haut.edu.cn/info/1088/23913.htm",
+      "sourceId": "civil",
+      "source": "土木工程学院（建筑学院）",
+      "date": "2026-11-25",
+      "category": "教务通知",
+      "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://cee.haut.edu.cn/info/1029/14711.htm",
+      "title": "七秩工大正青春，光翊篮坛展风采 ——电气工程学院成功举办第三届“光翊杯”篮球赛",
+      "url": "https://cee.haut.edu.cn/info/1029/14711.htm",
+      "sourceId": "electrical",
+      "source": "电气工程学院",
+      "date": "2026-11-25",
+      "category": "学院动态",
+      "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://glxy.haut.edu.cn/info/1097/23658.htm",
@@ -177,7 +287,7 @@
       "date": "2026-11-25",
       "category": "学院动态",
       "summary": "来自管理学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://jwc.haut.edu.cn/info/1114/15951.htm",
@@ -199,7 +309,7 @@
       "date": "2026-11-24",
       "category": "校园通知",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://youth.haut.edu.cn/info/1034/62518.htm",
@@ -210,7 +320,7 @@
       "date": "2026-11-24",
       "category": "校园通知",
       "summary": "来自校团委的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1088/23903.htm",
@@ -221,7 +331,7 @@
       "date": "2026-11-24",
       "category": "学院动态",
       "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11774.htm",
@@ -232,7 +342,7 @@
       "date": "2026-11-24",
       "category": "学生事务",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11764.htm",
@@ -243,7 +353,7 @@
       "date": "2026-11-24",
       "category": "学生事务",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11784.htm",
@@ -254,29 +364,18 @@
       "date": "2026-11-24",
       "category": "学生事务",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
-    },
-    {
-      "id": "campus-https://swxy.haut.edu.cn/info/1073/26833.htm",
-      "title": "访企拓岗促就业 || 生物工程学院党委书记卫红伟一行赴江苏省扬州市开展访企拓岗调研活动",
-      "url": "https://swxy.haut.edu.cn/info/1073/26833.htm",
-      "sourceId": "bio",
-      "source": "生物工程学院",
-      "date": "2026-11-23",
-      "category": "就业实习",
-      "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mse.haut.edu.cn/info/1062/16696.htm",
-      "title": "材料科学与工程学院开展跳绳、踢毽子趣味文体活动 2026-11-23",
+      "title": "材料科学与工程学院开展跳绳、踢毽子趣味文体活动",
       "url": "https://mse.haut.edu.cn/info/1062/16696.htm",
       "sourceId": "materials",
       "source": "材料科学与工程学院",
       "date": "2026-11-23",
       "category": "学院动态",
       "summary": "来自材料科学与工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://youth.haut.edu.cn/info/1034/62508.htm",
@@ -287,7 +386,18 @@
       "date": "2026-11-23",
       "category": "校园通知",
       "summary": "来自校团委的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://swxy.haut.edu.cn/info/1073/26833.htm",
+      "title": "访企拓岗促就业 || 生物工程学院党委书记卫红伟一行赴江苏省扬州市开展访企拓岗调研活动",
+      "url": "https://swxy.haut.edu.cn/info/1073/26833.htm",
+      "sourceId": "bio",
+      "source": "生物工程学院",
+      "date": "2026-11-23",
+      "category": "就业实习",
+      "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://cee.haut.edu.cn/info/1031/14691.htm",
@@ -298,7 +408,7 @@
       "date": "2026-11-23",
       "category": "学生事务",
       "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1092/23893.htm",
@@ -309,7 +419,7 @@
       "date": "2026-11-23",
       "category": "教务通知",
       "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://cee.haut.edu.cn/info/1031/14681.htm",
@@ -320,7 +430,7 @@
       "date": "2026-11-23",
       "category": "学生事务",
       "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11744.htm",
@@ -364,7 +474,7 @@
       "date": "2026-11-23",
       "category": "学生事务",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sxytj.haut.edu.cn/info/2061/17301.htm",
@@ -375,7 +485,7 @@
       "date": "2026-11-22",
       "category": "学院动态",
       "summary": "来自数学与统计学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1088/23883.htm",
@@ -386,7 +496,7 @@
       "date": "2026-11-22",
       "category": "学院动态",
       "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://glxy.haut.edu.cn/info/1097/23568.htm",
@@ -397,7 +507,7 @@
       "date": "2026-11-21",
       "category": "学院动态",
       "summary": "来自管理学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1088/23933.htm",
@@ -408,18 +518,7 @@
       "date": "2026-11-21",
       "category": "学院动态",
       "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
-    },
-    {
-      "id": "campus-https://hjgc.haut.edu.cn/info/1026/18120.htm",
-      "title": "环境工程学院成功召开2026-2027学年第一学期期中教学检查座谈会",
-      "url": "https://hjgc.haut.edu.cn/info/1026/18120.htm",
-      "sourceId": "environment",
-      "source": "环境工程学院",
-      "date": "2026-11-20",
-      "category": "教务通知",
-      "summary": "来自环境工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://design.haut.edu.cn/info/1030/19967.htm",
@@ -430,7 +529,18 @@
       "date": "2026-11-20",
       "category": "学生事务",
       "summary": "来自设计艺术学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://hjgc.haut.edu.cn/info/1026/18120.htm",
+      "title": "环境工程学院成功召开2026-2027学年第一学期期中教学检查座谈会",
+      "url": "https://hjgc.haut.edu.cn/info/1026/18120.htm",
+      "sourceId": "environment",
+      "source": "环境工程学院",
+      "date": "2026-11-20",
+      "category": "教务通知",
+      "summary": "来自环境工程学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sxytj.haut.edu.cn/info/1711/17291.htm",
@@ -441,7 +551,7 @@
       "date": "2026-11-20",
       "category": "学院动态",
       "summary": "来自数学与统计学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1088/23743.htm",
@@ -452,7 +562,7 @@
       "date": "2026-11-20",
       "category": "学院动态",
       "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11694.htm",
@@ -474,7 +584,7 @@
       "date": "2026-11-20",
       "category": "学院动态",
       "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://cee.haut.edu.cn/info/1008/14661.htm",
@@ -485,7 +595,7 @@
       "date": "2026-11-20",
       "category": "学院动态",
       "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1088/23793.htm",
@@ -496,7 +606,7 @@
       "date": "2026-11-20",
       "category": "学院动态",
       "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11704.htm",
@@ -518,7 +628,7 @@
       "date": "2026-11-19",
       "category": "学生事务",
       "summary": "来自党委学生工作部的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://xgb.haut.edu.cn/info/1055/31738.htm",
@@ -529,7 +639,7 @@
       "date": "2026-11-19",
       "category": "学生事务",
       "summary": "来自党委学生工作部的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://gradstu.haut.edu.cn/info/1116/10789.htm",
@@ -540,7 +650,7 @@
       "date": "2026-11-19",
       "category": "教学教务",
       "summary": "来自研究生院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://law.haut.edu.cn/info/1002/19651.htm",
@@ -573,7 +683,7 @@
       "date": "2026-11-19",
       "category": "学院动态",
       "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11684.htm",
@@ -587,6 +697,17 @@
       "collectedAt": "2026-11-23T21:58:33.056Z"
     },
     {
+      "id": "campus-https://law.haut.edu.cn/info/1002/19681.htm",
+      "title": "以辩明廉，以思守正 ——法学院廉洁教育活动月主题辩论赛顺利举办",
+      "url": "https://law.haut.edu.cn/info/1002/19681.htm",
+      "sourceId": "law",
+      "source": "法学院",
+      "date": "2026-11-19",
+      "category": "学院动态",
+      "summary": "来自法学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
       "id": "campus-https://lysp.haut.edu.cn/info/1956/44098.htm",
       "title": "河南工业大学荧光分光光度计货物项目成交公告",
       "url": "https://lysp.haut.edu.cn/info/1956/44098.htm",
@@ -595,7 +716,7 @@
       "date": "2026-11-18",
       "category": "学院动态",
       "summary": "来自粮油食品学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lswz.haut.edu.cn/info/1067/10988.htm",
@@ -606,18 +727,18 @@
       "date": "2026-11-18",
       "category": "教务通知",
       "summary": "来自粮食和物资储备学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mse.haut.edu.cn/info/1062/16686.htm",
-      "title": "材院逐风，竞绽芳华｜材料科学与工程学院 2026 年... 2026-11-18",
+      "title": "材院逐风，竞绽芳华｜材料科学与工程学院 2026 年秋季运动会顺利举办",
       "url": "https://mse.haut.edu.cn/info/1062/16686.htm",
       "sourceId": "materials",
       "source": "材料科学与工程学院",
       "date": "2026-11-18",
       "category": "学院动态",
       "summary": "来自材料科学与工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://pe.haut.edu.cn/info/1014/9143.htm",
@@ -628,7 +749,7 @@
       "date": "2026-11-18",
       "category": "学院动态",
       "summary": "来自体育学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lib.haut.edu.cn/info/1162/18695.htm",
@@ -639,7 +760,7 @@
       "date": "2026-11-18",
       "category": "学习资源",
       "summary": "来自图书馆的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://law.haut.edu.cn/info/1002/19641.htm",
@@ -661,7 +782,7 @@
       "date": "2026-11-18",
       "category": "学院动态",
       "summary": "来自环境工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sxytj.haut.edu.cn/info/1711/17231.htm",
@@ -716,7 +837,7 @@
       "date": "2026-11-18",
       "category": "学院动态",
       "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11644.htm",
@@ -764,14 +885,14 @@
     },
     {
       "id": "campus-https://mse.haut.edu.cn/info/1062/16706.htm",
-      "title": "凝心聚力，环环相伴 ——材料学院顺利举办 “一圈... 2026-11-18",
+      "title": "凝心聚力，环环相伴 ——材料学院顺利举办 “一圈到底”趣味活动",
       "url": "https://mse.haut.edu.cn/info/1062/16706.htm",
       "sourceId": "materials",
       "source": "材料科学与工程学院",
       "date": "2026-11-18",
       "category": "学院动态",
       "summary": "来自材料科学与工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://computer.haut.edu.cn/info/1027/34742.htm",
@@ -782,7 +903,7 @@
       "date": "2026-11-17",
       "category": "教务通知",
       "summary": "来自信息科学与工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://design.haut.edu.cn/info/1030/19897.htm",
@@ -793,7 +914,7 @@
       "date": "2026-11-17",
       "category": "竞赛活动",
       "summary": "来自设计艺术学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1117/11624.htm",
@@ -804,7 +925,7 @@
       "date": "2026-11-17",
       "category": "校园通知",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://gradstu.haut.edu.cn/info/1116/10779.htm",
@@ -815,7 +936,7 @@
       "date": "2026-11-17",
       "category": "教学教务",
       "summary": "来自研究生院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://hjgc.haut.edu.cn/info/1026/18080.htm",
@@ -837,7 +958,7 @@
       "date": "2026-11-17",
       "category": "学生事务",
       "summary": "来自设计艺术学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sxytj.haut.edu.cn/info/1711/17201.htm",
@@ -859,7 +980,7 @@
       "date": "2026-11-17",
       "category": "教务通知",
       "summary": "来自法学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://law.haut.edu.cn/info/1002/19721.htm",
@@ -870,7 +991,7 @@
       "date": "2026-11-17",
       "category": "学院动态",
       "summary": "来自法学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://law.haut.edu.cn/info/1002/19701.htm",
@@ -881,18 +1002,7 @@
       "date": "2026-11-17",
       "category": "学院动态",
       "summary": "来自法学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
-    },
-    {
-      "id": "campus-https://law.haut.edu.cn/info/1002/19681.htm",
-      "title": "以辩明廉，以思守正 ——法学院廉洁教育活动月主题辩论赛顺利举办",
-      "url": "https://law.haut.edu.cn/info/1002/19681.htm",
-      "sourceId": "law",
-      "source": "法学院",
-      "date": "2026-11-17",
-      "category": "学院动态",
-      "summary": "来自法学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://law.haut.edu.cn/info/1002/19751.htm",
@@ -903,7 +1013,18 @@
       "date": "2026-11-17",
       "category": "学院动态",
       "summary": "来自法学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://law.haut.edu.cn/info/1002/19771.htm",
+      "title": "法学院成功举办“法研论坛”第29期学术研讨会",
+      "url": "https://law.haut.edu.cn/info/1002/19771.htm",
+      "sourceId": "law",
+      "source": "法学院",
+      "date": "2026-11-17",
+      "category": "学院动态",
+      "summary": "来自法学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lib.haut.edu.cn/info/1162/18675.htm",
@@ -914,7 +1035,7 @@
       "date": "2026-11-16",
       "category": "学习资源",
       "summary": "来自图书馆的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1117/11604.htm",
@@ -925,7 +1046,7 @@
       "date": "2026-11-16",
       "category": "校园通知",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://glxy.haut.edu.cn/info/1097/23478.htm",
@@ -958,7 +1079,7 @@
       "date": "2026-11-16",
       "category": "学生事务",
       "summary": "来自校团委的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1088/23733.htm",
@@ -980,7 +1101,7 @@
       "date": "2026-11-16",
       "category": "教学教务",
       "summary": "来自研究生院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sxytj.haut.edu.cn/info/1711/17211.htm",
@@ -1002,7 +1123,7 @@
       "date": "2026-11-16",
       "category": "学院动态",
       "summary": "来自设计艺术学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11614.htm",
@@ -1035,7 +1156,7 @@
       "date": "2026-11-15",
       "category": "校园通知",
       "summary": "来自校团委的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://economics.haut.edu.cn/info/1099/32616.htm",
@@ -1057,18 +1178,7 @@
       "date": "2026-11-13",
       "category": "教务通知",
       "summary": "来自教务处的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
-    },
-    {
-      "id": "campus-https://hqjt.haut.edu.cn/info/1072/12277.htm",
-      "title": "暖启新程 护航校园—我校全面启动冬季集中供暖工作",
-      "url": "https://hqjt.haut.edu.cn/info/1072/12277.htm",
-      "sourceId": "logistics",
-      "source": "后勤服务中心",
-      "date": "2026-11-13",
-      "category": "校园生活",
-      "summary": "来自后勤服务中心的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lxy.haut.edu.cn/info/1016/18664.htm",
@@ -1079,7 +1189,7 @@
       "date": "2026-11-13",
       "category": "学院动态",
       "summary": "来自物理与新能源学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://cs.haut.edu.cn/info/1411/9854.htm",
@@ -1090,7 +1200,7 @@
       "date": "2026-11-13",
       "category": "科研学术",
       "summary": "来自复杂性科学研究院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lysp.haut.edu.cn/info/1956/44038.htm",
@@ -1101,7 +1211,18 @@
       "date": "2026-11-13",
       "category": "学院动态",
       "summary": "来自粮油食品学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://hqjt.haut.edu.cn/info/1072/12277.htm",
+      "title": "暖启新程 护航校园—我校全面启动冬季集中供暖工作",
+      "url": "https://hqjt.haut.edu.cn/info/1072/12277.htm",
+      "sourceId": "logistics",
+      "source": "后勤服务中心",
+      "date": "2026-11-13",
+      "category": "校园生活",
+      "summary": "来自后勤服务中心的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1088/23663.htm",
@@ -1123,7 +1244,7 @@
       "date": "2026-11-13",
       "category": "学院动态",
       "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lib.haut.edu.cn/info/1162/18655.htm",
@@ -1134,7 +1255,7 @@
       "date": "2026-11-13",
       "category": "竞赛活动",
       "summary": "来自图书馆的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11584.htm",
@@ -1292,14 +1413,14 @@
     },
     {
       "id": "campus-https://mse.haut.edu.cn/info/1062/16666.htm",
-      "title": "“一站式”社区 || 研途送暖，蓄力冲刺 —— 材料... 2026-11-12",
+      "title": "“一站式”社区 || 研途送暖，蓄力冲刺 —— 材料学院开展考研送温暖活动",
       "url": "https://mse.haut.edu.cn/info/1062/16666.htm",
       "sourceId": "materials",
       "source": "材料科学与工程学院",
       "date": "2026-11-12",
       "category": "学院动态",
       "summary": "来自材料科学与工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://swxy.haut.edu.cn/info/1073/26773.htm",
@@ -1310,7 +1431,7 @@
       "date": "2026-11-12",
       "category": "学院动态",
       "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://glxy.haut.edu.cn/info/1097/23368.htm",
@@ -1343,7 +1464,7 @@
       "date": "2026-11-12",
       "category": "学院动态",
       "summary": "来自设计艺术学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://design.haut.edu.cn/info/1030/19867.htm",
@@ -1354,7 +1475,7 @@
       "date": "2026-11-12",
       "category": "学院动态",
       "summary": "来自设计艺术学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://youth.haut.edu.cn/info/1034/62438.htm",
@@ -1365,7 +1486,7 @@
       "date": "2026-11-12",
       "category": "学生事务",
       "summary": "来自校团委的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lib.haut.edu.cn/info/1162/18635.htm",
@@ -1453,7 +1574,7 @@
       "date": "2026-11-12",
       "category": "学院动态",
       "summary": "来自设计艺术学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://jwc.haut.edu.cn/info/1114/15881.htm",
@@ -1464,7 +1585,7 @@
       "date": "2026-11-11",
       "category": "教学教务",
       "summary": "来自教务处的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://law.haut.edu.cn/info/1002/19511.htm",
@@ -1486,18 +1607,18 @@
       "date": "2026-11-11",
       "category": "学院动态",
       "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mse.haut.edu.cn/info/1062/16616.htm",
-      "title": "材料科学与工程学院开展研究生科研诚信专题教育活动 2026-11-11",
+      "title": "材料科学与工程学院开展研究生科研诚信专题教育活动",
       "url": "https://mse.haut.edu.cn/info/1062/16616.htm",
       "sourceId": "materials",
       "source": "材料科学与工程学院",
       "date": "2026-11-11",
       "category": "学院动态",
       "summary": "来自材料科学与工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sxytj.haut.edu.cn/info/1711/17151.htm",
@@ -1563,7 +1684,7 @@
       "date": "2026-11-11",
       "category": "学生事务",
       "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://design.haut.edu.cn/info/1030/19817.htm",
@@ -1585,7 +1706,7 @@
       "date": "2026-11-11",
       "category": "学院动态",
       "summary": "来自数学与统计学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sxytj.haut.edu.cn/info/2061/17111.htm",
@@ -1596,7 +1717,7 @@
       "date": "2026-11-11",
       "category": "学院动态",
       "summary": "来自数学与统计学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sxytj.haut.edu.cn/info/2061/17101.htm",
@@ -1618,7 +1739,7 @@
       "date": "2026-11-11",
       "category": "学院动态",
       "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sxytj.haut.edu.cn/info/1711/17161.htm",
@@ -1630,6 +1751,39 @@
       "category": "学院动态",
       "summary": "来自数学与统计学院的公开信息，具体要求请查看官方原文。",
       "collectedAt": "2026-11-18T00:13:36.948Z"
+    },
+    {
+      "id": "campus-https://swxy.haut.edu.cn/info/1073/26763.htm",
+      "title": "生物工程学院召开2026年度研究生科研诚信专题教育会",
+      "url": "https://swxy.haut.edu.cn/info/1073/26763.htm",
+      "sourceId": "bio",
+      "source": "生物工程学院",
+      "date": "2026-11-11",
+      "category": "学院动态",
+      "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://mse.haut.edu.cn/info/1013/16776.htm",
+      "title": "高温耐磨实验室教师赴洛阳作专题报告 助力耐火材料产学研融合",
+      "url": "https://mse.haut.edu.cn/info/1013/16776.htm",
+      "sourceId": "materials",
+      "source": "材料科学与工程学院",
+      "date": "2026-11-11",
+      "category": "学院动态",
+      "summary": "来自材料科学与工程学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://mse.haut.edu.cn/info/1013/16786.htm",
+      "title": "聚焦轻质隔热材料新突破：校企技术交流共绘隔热材料绿色智造蓝图",
+      "url": "https://mse.haut.edu.cn/info/1013/16786.htm",
+      "sourceId": "materials",
+      "source": "材料科学与工程学院",
+      "date": "2026-11-11",
+      "category": "学院动态",
+      "summary": "来自材料科学与工程学院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://law.haut.edu.cn/info/1002/19491.htm",
@@ -1651,7 +1805,7 @@
       "date": "2026-11-10",
       "category": "教学教务",
       "summary": "来自研究生院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lysp.haut.edu.cn/info/2066/44018.htm",
@@ -1662,7 +1816,7 @@
       "date": "2026-11-10",
       "category": "竞赛活动",
       "summary": "来自粮油食品学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://gradstu.haut.edu.cn/info/1117/10749.htm",
@@ -1673,7 +1827,7 @@
       "date": "2026-11-10",
       "category": "教学教务",
       "summary": "来自研究生院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://youth.haut.edu.cn/info/1034/62418.htm",
@@ -1684,7 +1838,7 @@
       "date": "2026-11-10",
       "category": "学生事务",
       "summary": "来自校团委的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1088/23623.htm",
@@ -1728,7 +1882,7 @@
       "date": "2026-11-10",
       "category": "学生事务",
       "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mse.haut.edu.cn/info/1062/16596.htm",
@@ -1750,18 +1904,18 @@
       "date": "2026-11-10",
       "category": "学院动态",
       "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mse.haut.edu.cn/info/1062/16676.htm",
-      "title": "材料科学与工程学院举办第十七届“聚龙杯”职业规... 2026-11-10",
+      "title": "材料科学与工程学院举办第十七届“聚龙杯”职业规划大赛院赛",
       "url": "https://mse.haut.edu.cn/info/1062/16676.htm",
       "sourceId": "materials",
       "source": "材料科学与工程学院",
       "date": "2026-11-10",
-      "category": "学院动态",
+      "category": "竞赛活动",
       "summary": "来自材料科学与工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1088/23563.htm",
@@ -1849,7 +2003,7 @@
       "date": "2026-11-09",
       "category": "教学教务",
       "summary": "来自研究生院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://cee.haut.edu.cn/info/1032/14571.htm",
@@ -1904,7 +2058,7 @@
       "date": "2026-11-06",
       "category": "学生事务",
       "summary": "2027年寒假交流项目面向我校全日制中国籍在校生：联合国实习和校际交流项目11月30日截止，全球治理青年领导力项目12月31日截止。学校提供往返机票或分档资助，完成项目后还可申请1000—5000元项目奖学金；具体语言要求见项目详情。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://hqjt.haut.edu.cn/info/1072/12227.htm",
@@ -1915,7 +2069,7 @@
       "date": "2026-11-06",
       "category": "校园生活",
       "summary": "来自后勤服务中心的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://law.haut.edu.cn/info/1002/19431.htm",
@@ -1937,7 +2091,7 @@
       "date": "2026-11-06",
       "category": "就业实习",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11484.htm",
@@ -1981,7 +2135,7 @@
       "date": "2026-11-06",
       "category": "学院动态",
       "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mse.haut.edu.cn/info/1062/16576.htm",
@@ -2025,7 +2179,7 @@
       "date": "2026-11-06",
       "category": "教学教务",
       "summary": "来自研究生院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mse.haut.edu.cn/info/1062/16566.htm",
@@ -2080,7 +2234,7 @@
       "date": "2026-11-05",
       "category": "学院动态",
       "summary": "来自化学化工学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://aidata.haut.edu.cn/info/1009/14148.htm",
@@ -2102,7 +2256,7 @@
       "date": "2026-11-05",
       "category": "教务通知",
       "summary": "来自管理学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://law.haut.edu.cn/info/1002/19421.htm",
@@ -2146,7 +2300,7 @@
       "date": "2026-11-05",
       "category": "学院动态",
       "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1088/23543.htm",
@@ -2278,7 +2432,7 @@
       "date": "2026-11-04",
       "category": "学院动态",
       "summary": "来自体育学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://law.haut.edu.cn/info/1002/19411.htm",
@@ -2388,7 +2542,7 @@
       "date": "2026-11-04",
       "category": "教务通知",
       "summary": "来自体育学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://pe.haut.edu.cn/info/1015/9093.htm",
@@ -2399,18 +2553,7 @@
       "date": "2026-11-04",
       "category": "学院动态",
       "summary": "来自体育学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
-    },
-    {
-      "id": "campus-https://lxy.haut.edu.cn/info/1016/18634.htm",
-      "title": "2026-11-03 巡 察 公 告",
-      "url": "https://lxy.haut.edu.cn/info/1016/18634.htm",
-      "sourceId": "physics",
-      "source": "物理与新能源学院",
-      "date": "2026-11-03",
-      "category": "学院动态",
-      "summary": "来自物理与新能源学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://cs.haut.edu.cn/info/1421/9834.htm",
@@ -2421,6 +2564,17 @@
       "date": "2026-11-03",
       "category": "科研学术",
       "summary": "来自复杂性科学研究院的公开信息，具体要求请查看官方原文。",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "campus-https://lxy.haut.edu.cn/info/1016/18634.htm",
+      "title": "2026-11-03 巡 察 公 告",
+      "url": "https://lxy.haut.edu.cn/info/1016/18634.htm",
+      "sourceId": "physics",
+      "source": "物理与新能源学院",
+      "date": "2026-11-03",
+      "category": "学院动态",
+      "summary": "来自物理与新能源学院的公开信息，具体要求请查看官方原文。",
       "collectedAt": "2026-11-26T21:58:58.703Z"
     },
     {
@@ -2553,7 +2707,7 @@
       "date": "2026-11-02",
       "category": "学生事务",
       "summary": "来自校团委的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://law.haut.edu.cn/info/1002/19391.htm",
@@ -2696,7 +2850,7 @@
       "date": "2026-11-02",
       "category": "学院动态",
       "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lib.haut.edu.cn/info/1162/18585.htm",
@@ -2751,7 +2905,7 @@
       "date": "2026-10-30",
       "category": "网络服务",
       "summary": "来自信息化办公室的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://pe.haut.edu.cn/info/1024/9053.htm",
@@ -2762,7 +2916,7 @@
       "date": "2026-10-30",
       "category": "学院动态",
       "summary": "来自体育学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1117/11414.htm",
@@ -2773,7 +2927,7 @@
       "date": "2026-10-30",
       "category": "校园通知",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://youth.haut.edu.cn/info/1034/62348.htm",
@@ -2784,7 +2938,7 @@
       "date": "2026-10-30",
       "category": "学生事务",
       "summary": "来自校团委的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://hqjt.haut.edu.cn/info/1072/12187.htm",
@@ -2927,7 +3081,7 @@
       "date": "2026-10-29",
       "category": "学生事务",
       "summary": "来自党委学生工作部的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://cs.haut.edu.cn/info/1421/9814.htm",
@@ -2938,7 +3092,7 @@
       "date": "2026-10-29",
       "category": "科研学术",
       "summary": "来自复杂性科学研究院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://law.haut.edu.cn/info/1002/19361.htm",
@@ -3048,7 +3202,7 @@
       "date": "2026-10-28",
       "category": "教务通知",
       "summary": "来自国际交流与合作处的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1115/11394.htm",
@@ -3147,7 +3301,7 @@
       "date": "2026-10-28",
       "category": "校园通知",
       "summary": "来自校团委的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://youth.haut.edu.cn/info/1034/62318.htm",
@@ -3158,7 +3312,7 @@
       "date": "2026-10-28",
       "category": "校园通知",
       "summary": "来自校团委的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://youth.haut.edu.cn/info/1034/62308.htm",
@@ -3191,7 +3345,7 @@
       "date": "2026-10-27",
       "category": "学院动态",
       "summary": "来自信息科学与工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://xgb.haut.edu.cn/info/1055/31538.htm",
@@ -3202,7 +3356,7 @@
       "date": "2026-10-27",
       "category": "学生事务",
       "summary": "来自党委学生工作部的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://swxy.haut.edu.cn/info/1073/26583.htm",
@@ -3224,7 +3378,7 @@
       "date": "2026-10-27",
       "category": "学院动态",
       "summary": "来自体育学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://design.haut.edu.cn/info/1030/19357.htm",
@@ -3257,7 +3411,7 @@
       "date": "2026-10-26",
       "category": "学院动态",
       "summary": "来自物理与新能源学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://mdsy.haut.edu.cn/info/1117/11374.htm",
@@ -3268,7 +3422,7 @@
       "date": "2026-10-26",
       "category": "校园通知",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lib.haut.edu.cn/info/1162/18515.htm",
@@ -3312,7 +3466,7 @@
       "date": "2026-10-26",
       "category": "学生事务",
       "summary": "来自明德书院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://glxy.haut.edu.cn/info/1089/22998.htm",
@@ -3323,7 +3477,7 @@
       "date": "2026-10-26",
       "category": "学院动态",
       "summary": "来自管理学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sxytj.haut.edu.cn/info/1711/16631.htm",
@@ -3367,7 +3521,7 @@
       "date": "2026-10-23",
       "category": "教务通知",
       "summary": "来自化学化工学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://computer.haut.edu.cn/info/1009/34512.htm",
@@ -3378,7 +3532,7 @@
       "category": "学院动态",
       "summary": "据学院发布消息，该学科在2026中国最好学科排名中列全国第47名、河南省第一。",
       "source": "信息科学与工程学院",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://tj.haut.edu.cn/info/1092/23133.htm",
@@ -3389,7 +3543,7 @@
       "category": "竞赛活动",
       "summary": "报名截至11月10日，每队3人，鼓励跨年级组队；校赛材料统一发放，需依据通知完成报名。",
       "source": "土木工程学院（建筑学院）",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lib.haut.edu.cn/info/1162/18465.htm",
@@ -3521,7 +3675,7 @@
       "date": "2026-10-23",
       "category": "科研学术",
       "summary": "来自复杂性科学研究院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sxytj.haut.edu.cn/info/1711/17081.htm",
@@ -3532,7 +3686,7 @@
       "date": "2026-10-23",
       "category": "学院动态",
       "summary": "来自数学与统计学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://jwc.haut.edu.cn/info/1114/14271.htm",
@@ -3554,7 +3708,7 @@
       "date": "2026-10-22",
       "category": "教学教务",
       "summary": "来自研究生院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://jwc.haut.edu.cn/info/1114/14281.htm",
@@ -3653,7 +3807,7 @@
       "date": "2026-10-21",
       "category": "教学教务",
       "summary": "来自研究生院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lib.haut.edu.cn/info/1162/18445.htm",
@@ -3785,40 +3939,7 @@
       "date": "2026-10-21",
       "category": "学院动态",
       "summary": "来自管理学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
-    },
-    {
-      "id": "campus-https://design.haut.edu.cn/info/1030/19317.htm",
-      "title": "设计艺术学院公共与视传教工党支部与教育培训学院党支部联合开展主题党日活动",
-      "url": "https://design.haut.edu.cn/info/1030/19317.htm",
-      "sourceId": "design",
-      "source": "设计艺术学院",
-      "date": "2026-10-21",
-      "category": "学院动态",
-      "summary": "来自设计艺术学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-03T00:00:34.351Z"
-    },
-    {
-      "id": "campus-https://swxy.haut.edu.cn/info/1073/26563.htm",
-      "title": "校企携手赋能产业创新 河南工业大学与河南省科尔惠农业科技有限公司共建联合研发中心",
-      "url": "https://swxy.haut.edu.cn/info/1073/26563.htm",
-      "sourceId": "bio",
-      "source": "生物工程学院",
-      "date": "2026-10-21",
-      "category": "学院动态",
-      "summary": "来自生物工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-18T23:21:32.908Z"
-    },
-    {
-      "id": "campus-https://pe.haut.edu.cn/info/1020/9043.htm",
-      "title": "我校网球队在省赛中夺得1金4铜",
-      "url": "https://pe.haut.edu.cn/info/1020/9043.htm",
-      "sourceId": "sports",
-      "source": "体育学院",
-      "date": "2026-10-21",
-      "category": "学院动态",
-      "summary": "来自体育学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-18T23:21:32.908Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://jdxy.haut.edu.cn/info/1080/41530.htm",
@@ -3829,7 +3950,7 @@
       "date": "2026-10-20",
       "category": "学院动态",
       "summary": "来自机电工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://aidata.haut.edu.cn/info/1009/13808.htm",
@@ -3843,116 +3964,6 @@
       "collectedAt": "2026-11-08T21:58:34.723Z"
     },
     {
-      "id": "campus-https://law.haut.edu.cn/info/1002/19211.htm",
-      "title": "我院教师参加第十五届高校知识产权人才培养交流会暨委员大会",
-      "url": "https://law.haut.edu.cn/info/1002/19211.htm",
-      "sourceId": "law",
-      "source": "法学院",
-      "date": "2026-10-20",
-      "category": "学院动态",
-      "summary": "来自法学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-10-28T23:59:40.428Z"
-    },
-    {
-      "id": "campus-https://gjjl.haut.edu.cn/info/1007/5990.htm",
-      "title": "关于开展2027年国际中文教育志愿者报名工作的通知",
-      "url": "https://gjjl.haut.edu.cn/info/1007/5990.htm",
-      "sourceId": "international-notices",
-      "source": "国际交流与合作处·通知公告",
-      "date": "2026-10-20",
-      "category": "校园通知",
-      "summary": "来自国际交流与合作处的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
-    },
-    {
-      "id": "campus-https://cs.haut.edu.cn/info/1421/9784.htm",
-      "title": "关于开展河南工业大学复杂性科学研究院2026年度开放课题（第三批）结题验收工作的通知",
-      "url": "https://cs.haut.edu.cn/info/1421/9784.htm",
-      "sourceId": "complexity",
-      "source": "复杂性科学研究院",
-      "date": "2026-10-20",
-      "category": "科研学术",
-      "summary": "来自复杂性科学研究院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
-    },
-    {
-      "id": "campus-https://tj.haut.edu.cn/info/1088/23043.htm",
-      "title": "“一站式”社区 || 语通山海，筑梦美的——美的集团到访河南工业大学开...",
-      "url": "https://tj.haut.edu.cn/info/1088/23043.htm",
-      "sourceId": "civil",
-      "source": "土木工程学院（建筑学院）",
-      "date": "2026-10-20",
-      "category": "学院动态",
-      "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-03T00:00:34.351Z"
-    },
-    {
-      "id": "campus-https://cee.haut.edu.cn/info/1008/14441.htm",
-      "title": "聚电气力量 贺七秩芳华 | 学院举办高质量发展暨博士生学术论坛",
-      "url": "https://cee.haut.edu.cn/info/1008/14441.htm",
-      "sourceId": "electrical",
-      "source": "电气工程学院",
-      "date": "2026-10-20",
-      "category": "学院动态",
-      "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-06T00:01:29.248Z"
-    },
-    {
-      "id": "campus-https://cee.haut.edu.cn/info/1008/14431.htm",
-      "title": "聚电气力量 贺七秩芳华 | 学院举办科研成果展",
-      "url": "https://cee.haut.edu.cn/info/1008/14431.htm",
-      "sourceId": "electrical",
-      "source": "电气工程学院",
-      "date": "2026-10-20",
-      "category": "学院动态",
-      "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-03T00:00:34.351Z"
-    },
-    {
-      "id": "campus-https://cee.haut.edu.cn/info/1008/14421.htm",
-      "title": "聚电气力量 贺七秩芳华 | 智能工程学院举办校企战略合作论坛暨授牌捐赠仪式",
-      "url": "https://cee.haut.edu.cn/info/1008/14421.htm",
-      "sourceId": "electrical",
-      "source": "电气工程学院",
-      "date": "2026-10-20",
-      "category": "学院动态",
-      "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-10-31T00:06:14.608Z"
-    },
-    {
-      "id": "campus-https://cee.haut.edu.cn/info/1029/14411.htm",
-      "title": "我校举办第三届明信片DIY设计大赛",
-      "url": "https://cee.haut.edu.cn/info/1029/14411.htm",
-      "sourceId": "electrical",
-      "source": "电气工程学院",
-      "date": "2026-10-20",
-      "category": "竞赛活动",
-      "summary": "来自电气工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-22T22:00:15.059Z"
-    },
-    {
-      "id": "campus-https://hjgc.haut.edu.cn/info/1026/17470.htm",
-      "title": "我院参加第四届环境学科建设与研究生教育研讨会",
-      "url": "https://hjgc.haut.edu.cn/info/1026/17470.htm",
-      "sourceId": "environment",
-      "source": "环境工程学院",
-      "date": "2026-10-20",
-      "category": "学院动态",
-      "summary": "来自环境工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-01T23:59:22.409Z"
-    },
-    {
-      "id": "campus-https://tj.haut.edu.cn/info/1088/23173.htm",
-      "title": "土木工程学院（建筑学院）举办研究生学术能力提升系列讲座——地震与工...",
-      "url": "https://tj.haut.edu.cn/info/1088/23173.htm",
-      "sourceId": "civil",
-      "source": "土木工程学院（建筑学院）",
-      "date": "2026-10-20",
-      "category": "学院动态",
-      "summary": "来自土木工程学院（建筑学院）的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-04T23:58:13.984Z"
-    },
-    {
       "id": "campus-https://aidata.haut.edu.cn/info/1015/13798.htm",
       "title": "“七秩工大，学术领航”——河南工业大学70周年校庆系列讲座...",
       "url": "https://aidata.haut.edu.cn/info/1015/13798.htm",
@@ -3961,18 +3972,7 @@
       "category": "学院动态",
       "summary": "周青教授报告安排于10月24日15:00—17:00，地点为人工智能与大数据学院6369会议室，涉及多主元合金与AI辅助材料设计。",
       "source": "人工智能与大数据学院",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
-    },
-    {
-      "id": "campus-https://lib.haut.edu.cn/info/1162/18315.htm",
-      "title": "2026-10-19【线上直播】考研公共课（考研英语）高分技巧：真题复盘+错题...",
-      "url": "https://lib.haut.edu.cn/info/1162/18315.htm",
-      "sourceId": "library",
-      "source": "图书馆",
-      "date": "2026-10-19",
-      "category": "学习资源",
-      "summary": "来自图书馆的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-10-26T00:09:41.167Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://www.haut.edu.cn/info/1665/638281.htm",
@@ -3983,7 +3983,7 @@
       "date": "2026-10-16",
       "category": "科研学术",
       "summary": "来自学校官网的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://aidata.haut.edu.cn/info/1008/13768.htm",
@@ -4016,7 +4016,7 @@
       "date": "2026-10-12",
       "category": "科研学术",
       "summary": "来自学校官网的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lswz.haut.edu.cn/info/1068/10668.htm",
@@ -4027,7 +4027,7 @@
       "date": "2026-10-10",
       "category": "教务通知",
       "summary": "来自粮食和物资储备学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "market-survey-notice",
@@ -4048,7 +4048,7 @@
       "date": "2026-09-20",
       "category": "校园通知",
       "summary": "来自粮食和物资储备学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://xxb.haut.edu.cn/info/1032/22539.htm",
@@ -4059,7 +4059,7 @@
       "date": "2026-09-12",
       "category": "网络服务",
       "summary": "来自信息化办公室的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://www.haut.edu.cn/info/1065/630361.htm",
@@ -4070,7 +4070,7 @@
       "date": "2026-07-24",
       "category": "学校综合",
       "summary": "来自学校通知公告的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://jdxy.haut.edu.cn/info/1080/40680.htm",
@@ -4081,7 +4081,7 @@
       "date": "2026-07-11",
       "category": "学院动态",
       "summary": "来自机电工程学院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://www.haut.edu.cn/info/1065/609661.htm",
@@ -4092,7 +4092,7 @@
       "date": "2026-03-05",
       "category": "学校综合",
       "summary": "来自学校通知公告的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://zs.haut.edu.cn/info/3709/11752.htm",
@@ -4103,7 +4103,7 @@
       "date": "2026-01-23",
       "category": "教学教务",
       "summary": "来自招生工作办公室的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://zs.haut.edu.cn/info/3709/11772.htm",
@@ -4114,7 +4114,7 @@
       "date": "2026-01-21",
       "category": "教学教务",
       "summary": "来自招生工作办公室的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lab.haut.edu.cn/info/1023/8035.htm",
@@ -4125,7 +4125,7 @@
       "date": "2025-11-06",
       "category": "学习资源",
       "summary": "来自实验室管理处的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://lab.haut.edu.cn/info/1023/8015.htm",
@@ -4136,7 +4136,7 @@
       "date": "2025-11-06",
       "category": "学习资源",
       "summary": "来自实验室管理处的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://kjc.haut.edu.cn/info/1288/5788.htm",
@@ -4147,7 +4147,7 @@
       "date": "2022-01-10",
       "category": "科研学术",
       "summary": "来自科技处的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://www.haut.edu.cn/info/1063/641521.htm",
@@ -4158,7 +4158,7 @@
       "date": null,
       "category": "学校综合",
       "summary": "来自学校官网的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://www.haut.edu.cn/info/1063/641401.htm",
@@ -4180,7 +4180,7 @@
       "date": null,
       "category": "学生事务",
       "summary": "来自校团委的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://youth.haut.edu.cn/info/1035/61808.htm",
@@ -4191,7 +4191,7 @@
       "date": null,
       "category": "学生事务",
       "summary": "来自校团委的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://job.haut.edu.cn/module/campustalkdetail/id-6adffc14de54065d55b05cb7/nid-8781",
@@ -4246,7 +4246,7 @@
       "date": null,
       "category": "交流发展",
       "summary": "来自国际交流与合作处的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://www.haut.edu.cn/info/1063/634971.htm",
@@ -4268,7 +4268,7 @@
       "date": null,
       "category": "科研学术",
       "summary": "来自科技处的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://shekechu.haut.edu.cn/info/1059/7452.htm",
@@ -4301,7 +4301,7 @@
       "date": null,
       "category": "校园生活",
       "summary": "来自校医院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://hospital.haut.edu.cn/info/1063/9422.htm",
@@ -4312,7 +4312,7 @@
       "date": null,
       "category": "校园生活",
       "summary": "来自校医院的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://sfl.haut.edu.cn/info/1063/20397.htm",
@@ -4389,7 +4389,7 @@
       "date": null,
       "category": "学校综合",
       "summary": "来自信息公开的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "campus-https://xzbgs.haut.edu.cn/info/1005/11155.htm",
@@ -4400,87 +4400,17 @@
       "date": null,
       "category": "学校综合",
       "summary": "来自信息公开的公开信息，具体要求请查看官方原文。",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     }
   ],
   "projects": [
-    {
-      "id": "firstcontributions--first-contributions",
-      "repo": "firstcontributions/first-contributions",
-      "name": "第一次开源贡献",
-      "url": "https://github.com/firstcontributions/first-contributions",
-      "description": "通过实际仓库操作练习第一次 Pull Request。",
-      "stars": 57005,
-      "language": null,
-      "license": "MIT",
-      "category": "开源实践",
-      "fit": "当前阶段可用；需要 GitHub 账号和 Git 基础。",
-      "firstStep": "按教程 fork 仓库，在本地完成一次独立分支修改。",
-      "tags": [
-        "Git",
-        "PR",
-        "新手友好"
-      ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
-      "apiDate": "Fri, 23 Oct 2026 15:20:52 GMT",
-      "status": "ok",
-      "error": null,
-      "pushedAt": "2026-11-26T21:44:54Z"
-    },
-    {
-      "id": "krahets--hello-algo",
-      "repo": "krahets/hello-algo",
-      "name": "Hello 算法",
-      "url": "https://github.com/krahets/hello-algo",
-      "description": "图解数据结构与算法，提供多语言示例。",
-      "stars": 132759,
-      "language": "Python",
-      "license": "NOASSERTION",
-      "category": "算法",
-      "fit": "当前阶段可用；读概念后优先选 C 示例。",
-      "firstStep": "从复杂度、数组与链表开始，手写一个顺序表。",
-      "tags": [
-        "中文",
-        "C 示例",
-        "可视化"
-      ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
-      "apiDate": "Fri, 23 Oct 2026 15:20:49 GMT",
-      "status": "ok",
-      "error": null,
-      "pushedAt": "2026-11-26T20:50:16Z",
-      "verificationNote": "GitHub 官方仓库核验：132,341 Star、NOASSERTION、未归档；最近推送 2026-11-15。"
-    },
-    {
-      "id": "microsoft--PowerToys",
-      "repo": "microsoft/PowerToys",
-      "name": "Windows PowerToys",
-      "url": "https://github.com/microsoft/PowerToys",
-      "description": "Windows 桌面效率工具集。",
-      "stars": 141441,
-      "language": "C",
-      "license": "MIT",
-      "category": "效率工具",
-      "fit": "当前可直接使用，适合 Windows 学习环境。",
-      "firstStep": "从官方发布页安装，试用 FancyZones 和 PowerToys Run。",
-      "tags": [
-        "Windows",
-        "效率",
-        "桌面"
-      ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
-      "apiDate": "Fri, 23 Oct 2026 15:20:53 GMT",
-      "status": "ok",
-      "error": null,
-      "pushedAt": "2026-11-26T20:14:19Z"
-    },
     {
       "id": "excalidraw--excalidraw",
       "repo": "excalidraw/excalidraw",
       "name": "Excalidraw 白板",
       "url": "https://github.com/excalidraw/excalidraw",
       "description": "手绘风格的在线白板和图解工具。",
-      "stars": 136364,
+      "stars": 136407,
       "language": "TypeScript",
       "license": "MIT",
       "category": "效率工具",
@@ -4491,34 +4421,104 @@
         "白板",
         "项目表达"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": "Fri, 23 Oct 2026 15:20:52 GMT",
       "status": "ok",
       "error": null,
-      "pushedAt": "2026-11-26T16:14:40Z"
+      "pushedAt": "2026-11-27T21:58:20Z"
     },
     {
-      "id": "microsoft--generative-ai-for-beginners",
-      "repo": "microsoft/generative-ai-for-beginners",
-      "name": "生成式 AI 入门",
-      "url": "https://github.com/microsoft/generative-ai-for-beginners",
-      "description": "生成式 AI 概念、提示词及应用开发课程。",
-      "stars": 124334,
-      "language": "Jupyter Notebook",
+      "id": "firstcontributions--first-contributions",
+      "repo": "firstcontributions/first-contributions",
+      "name": "第一次开源贡献",
+      "url": "https://github.com/firstcontributions/first-contributions",
+      "description": "通过实际仓库操作练习第一次 Pull Request。",
+      "stars": 57015,
+      "language": null,
       "license": "MIT",
-      "category": "AI入门",
-      "fit": "概念章节现在可读；应用实验可能需要服务账号和费用。",
-      "firstStep": "先读生成式 AI 简介和负责任使用章节。",
+      "category": "开源实践",
+      "fit": "当前阶段可用；需要 GitHub 账号和 Git 基础。",
+      "firstStep": "按教程 fork 仓库，在本地完成一次独立分支修改。",
       "tags": [
-        "生成式AI",
-        "课程",
-        "API"
+        "Git",
+        "PR",
+        "新手友好"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": "Fri, 23 Oct 2026 15:20:52 GMT",
       "status": "ok",
       "error": null,
-      "pushedAt": "2026-11-26T03:43:40Z"
+      "pushedAt": "2026-11-27T20:22:23Z"
+    },
+    {
+      "id": "CyC2018--CS-Notes",
+      "repo": "CyC2018/CS-Notes",
+      "name": "CS-Notes",
+      "url": "https://github.com/CyC2018/CS-Notes",
+      "description": "算法、操作系统、网络和数据库等学习笔记。",
+      "stars": 186603,
+      "language": "JavaScript",
+      "license": "未标明",
+      "category": "CS基础",
+      "fit": "适合作为查阅资料；面试章节不必提前刷完。",
+      "firstStep": "从数据结构目录选择当前课堂主题做复习。",
+      "tags": [
+        "中文",
+        "基础笔记",
+        "查阅"
+      ],
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
+      "apiDate": "Fri, 23 Oct 2026 15:20:54 GMT",
+      "status": "ok",
+      "error": null,
+      "pushedAt": "2026-11-27T19:44:25Z"
+    },
+    {
+      "id": "microsoft--PowerToys",
+      "repo": "microsoft/PowerToys",
+      "name": "Windows PowerToys",
+      "url": "https://github.com/microsoft/PowerToys",
+      "description": "Windows 桌面效率工具集。",
+      "stars": 141482,
+      "language": "C",
+      "license": "MIT",
+      "category": "效率工具",
+      "fit": "当前可直接使用，适合 Windows 学习环境。",
+      "firstStep": "从官方发布页安装，试用 FancyZones 和 PowerToys Run。",
+      "tags": [
+        "Windows",
+        "效率",
+        "桌面"
+      ],
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
+      "apiDate": "Fri, 23 Oct 2026 15:20:53 GMT",
+      "status": "ok",
+      "error": null,
+      "pushedAt": "2026-11-27T19:41:59Z"
+    },
+    {
+      "id": "krahets--hello-algo",
+      "repo": "krahets/hello-algo",
+      "name": "Hello 算法",
+      "url": "https://github.com/krahets/hello-algo",
+      "description": "图解数据结构与算法，提供多语言示例。",
+      "stars": 132785,
+      "language": "Python",
+      "license": "NOASSERTION",
+      "category": "算法",
+      "fit": "当前阶段可用；读概念后优先选 C 示例。",
+      "firstStep": "从复杂度、数组与链表开始，手写一个顺序表。",
+      "tags": [
+        "中文",
+        "C 示例",
+        "可视化"
+      ],
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
+      "apiDate": "Fri, 23 Oct 2026 15:20:49 GMT",
+      "status": "ok",
+      "error": null,
+      "pushedAt": "2026-11-27T04:43:32Z",
+      "verificationNote": "GitHub 官方仓库核验：132,341 Star、NOASSERTION、未归档；最近推送 2026-11-15。"
     },
     {
       "id": "EbookFoundation--free-programming-books",
@@ -4526,7 +4526,7 @@
       "name": "免费编程书籍",
       "url": "https://github.com/EbookFoundation/free-programming-books",
       "description": "按语言整理的免费编程书籍和课程索引。",
-      "stars": 402343,
+      "stars": 402381,
       "language": "Python",
       "license": "CC-BY-4.0",
       "category": "CS基础",
@@ -4537,11 +4537,34 @@
         "电子书",
         "免费"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": "Fri, 23 Oct 2026 15:20:49 GMT",
       "status": "ok",
       "error": null,
-      "pushedAt": "2026-11-25T16:23:45Z"
+      "pushedAt": "2026-11-27T01:01:33Z"
+    },
+    {
+      "id": "microsoft--generative-ai-for-beginners",
+      "repo": "microsoft/generative-ai-for-beginners",
+      "name": "生成式 AI 入门",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "description": "生成式 AI 概念、提示词及应用开发课程。",
+      "stars": 124440,
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "category": "AI入门",
+      "fit": "概念章节现在可读；应用实验可能需要服务账号和费用。",
+      "firstStep": "先读生成式 AI 简介和负责任使用章节。",
+      "tags": [
+        "生成式AI",
+        "课程",
+        "API"
+      ],
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
+      "apiDate": "Fri, 23 Oct 2026 15:20:52 GMT",
+      "status": "ok",
+      "error": null,
+      "pushedAt": "2026-11-26T03:43:40Z"
     },
     {
       "id": "practical-tutorials--project-based-learning",
@@ -4549,7 +4572,7 @@
       "name": "项目式学习资源库",
       "url": "https://github.com/practical-tutorials/project-based-learning",
       "description": "按语言整理的完整项目教程合集，C/C++ 区包含 Shell、文本编辑器、哈希表、数据库和虚拟机等实践。",
-      "stars": 290546,
+      "stars": 290611,
       "language": "Python",
       "license": "MIT",
       "category": "软件工程",
@@ -4561,7 +4584,7 @@
         "C语言",
         "初学者进阶"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": null,
       "status": "ok",
       "error": null,
@@ -4569,35 +4592,12 @@
       "verificationNote": "GitHub 官方仓库核验：289,801 Star、MIT、未归档；最近推送 2026-11-09。"
     },
     {
-      "id": "CyC2018--CS-Notes",
-      "repo": "CyC2018/CS-Notes",
-      "name": "CS-Notes",
-      "url": "https://github.com/CyC2018/CS-Notes",
-      "description": "算法、操作系统、网络和数据库等学习笔记。",
-      "stars": 186602,
-      "language": "JavaScript",
-      "license": "未标明",
-      "category": "CS基础",
-      "fit": "适合作为查阅资料；面试章节不必提前刷完。",
-      "firstStep": "从数据结构目录选择当前课堂主题做复习。",
-      "tags": [
-        "中文",
-        "基础笔记",
-        "查阅"
-      ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
-      "apiDate": "Fri, 23 Oct 2026 15:20:54 GMT",
-      "status": "ok",
-      "error": null,
-      "pushedAt": "2026-11-23T06:22:57Z"
-    },
-    {
       "id": "codecrafters-io--build-your-own-x",
       "repo": "codecrafters-io/build-your-own-x",
       "name": "动手重造 X",
       "url": "https://github.com/codecrafters-io/build-your-own-x",
       "description": "分主题整理编译器、数据库、解释器等构建教程。",
-      "stars": 565760,
+      "stars": 565978,
       "language": "Markdown",
       "license": "未标明",
       "category": "项目实践",
@@ -4608,7 +4608,7 @@
         "英文",
         "进阶储备"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": "Fri, 23 Oct 2026 15:20:52 GMT",
       "status": "ok",
       "error": null,
@@ -4620,7 +4620,7 @@
       "name": "AI 入门课程",
       "url": "https://github.com/microsoft/AI-For-Beginners",
       "description": "微软维护的人工智能基础课程与实验。",
-      "stars": 71278,
+      "stars": 71313,
       "language": "Jupyter Notebook",
       "license": "MIT",
       "category": "AI入门",
@@ -4631,7 +4631,7 @@
         "AI基础",
         "课程"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": "Fri, 23 Oct 2026 15:20:50 GMT",
       "status": "ok",
       "error": null,
@@ -4655,7 +4655,7 @@
         "项目练习",
         "中文"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": null,
       "status": "ok",
       "error": null,
@@ -4668,7 +4668,7 @@
       "name": "OSSU 计算机科学",
       "url": "https://github.com/ossu/computer-science",
       "description": "社区维护的系统计算机科学课程路线。",
-      "stars": 211601,
+      "stars": 211622,
       "language": "HTML",
       "license": "MIT",
       "category": "CS基础",
@@ -4679,7 +4679,7 @@
         "系统课程",
         "自学"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": "Fri, 23 Oct 2026 15:20:49 GMT",
       "pushedAt": "2026-11-09T06:27:27Z",
       "status": "ok",
@@ -4691,7 +4691,7 @@
       "name": "机器学习入门",
       "url": "https://github.com/microsoft/ML-For-Beginners",
       "description": "围绕传统机器学习的入门课程和动手实验。",
-      "stars": 92504,
+      "stars": 92518,
       "language": "Jupyter Notebook",
       "license": "MIT",
       "category": "AI入门",
@@ -4702,7 +4702,7 @@
         "机器学习",
         "实验"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": "Fri, 23 Oct 2026 15:20:51 GMT",
       "status": "ok",
       "error": null,
@@ -4714,7 +4714,7 @@
       "name": "计算机教育缺失的一课",
       "url": "https://github.com/missing-semester/missing-semester",
       "description": "Shell、Git、编辑器与调试等实用工具课程。",
-      "stars": 6233,
+      "stars": 6234,
       "language": "CSS",
       "license": "NOASSERTION",
       "category": "效率工具",
@@ -4725,7 +4725,7 @@
         "Shell",
         "工具课"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": "Fri, 23 Oct 2026 15:20:49 GMT",
       "status": "ok",
       "error": null,
@@ -4737,7 +4737,7 @@
       "name": "CS 自学指南",
       "url": "https://github.com/PKUFlyingPig/cs-self-learning",
       "description": "中文计算机课程和自学路线导航。",
-      "stars": 76890,
+      "stars": 76902,
       "language": "HTML",
       "license": "MIT",
       "category": "CS基础",
@@ -4748,7 +4748,7 @@
         "路线",
         "课程"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": "Fri, 23 Oct 2026 15:26:55 GMT",
       "pushedAt": "2026-09-17T02:11:53Z",
       "status": "ok",
@@ -4760,7 +4760,7 @@
       "name": "FFmpeg/libav C 视频处理教程",
       "url": "https://github.com/leandromoreira/ffmpeg-libav-tutorial",
       "description": "从视频、音频、编码与容器基础讲起，再用 C 调用 FFmpeg libav 完成读取、复用和转码；仓库提供简体中文说明。",
-      "stars": 11081,
+      "stars": 11082,
       "language": "C",
       "license": "BSD-3-Clause",
       "category": "软件工程",
@@ -4772,7 +4772,7 @@
         "项目学习",
         "初学者进阶"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": null,
       "status": "ok",
       "pushedAt": "2026-06-18T14:18:13Z",
@@ -4785,7 +4785,7 @@
       "name": "C 算法实践",
       "url": "https://github.com/TheAlgorithms/C",
       "description": "用 C 实现基础算法和数据结构。",
-      "stars": 22680,
+      "stars": 22681,
       "language": "C",
       "license": "GPL-3.0",
       "category": "C语言",
@@ -4796,7 +4796,7 @@
         "数据结构",
         "源码"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": "Fri, 23 Oct 2026 15:20:50 GMT",
       "status": "ok",
       "error": null,
@@ -4810,7 +4810,7 @@
       "name": "命令行的艺术",
       "url": "https://github.com/jlevy/the-art-of-command-line",
       "description": "命令行基础、技巧与常用工具的知识清单。",
-      "stars": 162844,
+      "stars": 162849,
       "language": null,
       "license": "未标明",
       "category": "效率工具",
@@ -4821,7 +4821,7 @@
         "中文翻译",
         "速查"
       ],
-      "verifiedAt": "2026-11-26T21:58:58.703Z",
+      "verifiedAt": "2026-11-27T22:02:21.610Z",
       "apiDate": "Fri, 23 Oct 2026 15:20:54 GMT",
       "status": "ok",
       "error": null,
@@ -4841,8 +4841,8 @@
       "fit": "优先推荐：大一C语言入门至基础算法阶段，可先选C/C++方向。",
       "eligibility": "具有正式学籍的全日制本科生等；官网规定其他院校本科生可选大学B组及以上，最终按院校审核和报名时资格确定。",
       "additionalUrl": "https://x-static.lanqiao.cn/upload/202511/courseimg/2a04ace9-a1b4-4260-8973-2ab331db7c0e.pdf",
-      "checkedAt": "2026-11-16",
-      "verifiedAt": "2026-11-15T22:04:23.320Z",
+      "checkedAt": "2026-11-28",
+      "verifiedAt": "2026-11-27T22:03:00Z",
       "campusDeadline": null,
       "firstStep": "先向学院辅导员或程序设计课程老师确认校内负责人及截止，再在官网实名认证并选择学校；本周先练循环枚举、数组和字符串题。"
     },
@@ -5016,6 +5016,19 @@
       "date": "2026-11-10"
     },
     {
+      "id": "notice-campus-https://mse.haut.edu.cn/info/1062/16676.htm",
+      "title": "材料科学与工程学院举办第十七届“聚龙杯”职业规划大赛院赛",
+      "url": "https://mse.haut.edu.cn/info/1062/16676.htm",
+      "source": "材料科学与工程学院",
+      "deadline": null,
+      "status": "待核实",
+      "category": "校内通知",
+      "description": "新发现的官方竞赛相关通知；是否开放报名、适用年级和截止日期请阅读原文。",
+      "fit": "先核对参赛范围及报名方式",
+      "eligibility": "以官方通知为准",
+      "date": "2026-11-10"
+    },
+    {
       "id": "notice-campus-https://design.haut.edu.cn/info/1030/19857.htm",
       "title": "设计艺术学院成功举办“聚龙杯”第十七届 大学生职业规划大赛院级复赛",
       "url": "https://design.haut.edu.cn/info/1030/19857.htm",
@@ -5161,21 +5174,6 @@
       "description": "官网已发布2026年第19届获奖公告，2026届已结束；可先阅读软件应用与开发、AI应用等作品类别，等待下一届正式通知。",
       "fit": "适合积累一个可运行、可演示、具备真实使用场景的软件项目，循序补齐开发与文档能力。",
       "eligibility": "以新一届参赛要求、组队规则及校内选拔通知为准。",
-      "checkedAt": "2026-10-23",
-      "verifiedAt": "2026-10-23"
-    },
-    {
-      "id": "lanqiao-software-next",
-      "title": "蓝桥杯大学生软件赛",
-      "url": "https://dasai.lanqiao.cn/",
-      "source": "蓝桥杯大赛组委会",
-      "deadline": null,
-      "status": "关注下届",
-      "category": "程序设计",
-      "description": "已核验第十七届官方软件赛通知，其报名截止为2025年12月15日、省赛安排在2026年4月。尚未核实第十八届软件赛报名通知，当前不标报名中。",
-      "fit": "适合用C/C++系统练习基础算法；需先确认学校组织方式、组别和费用，再决定报名。",
-      "eligibility": "以新一届软件赛正式通知及学校报名安排为准。",
-      "additionalUrl": "https://x-static.lanqiao.cn/upload/202511/courseimg/2a04ace9-a1b4-4260-8973-2ab331db7c0e.pdf",
       "checkedAt": "2026-10-23",
       "verifiedAt": "2026-10-23"
     },
@@ -5424,6 +5422,193 @@
   ],
   "frontier": [
     {
+      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/ciflow%2Fxpu%2F206921",
+      "title": "ciflow/xpu/206921: [UPDATE] Update",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/ciflow%2Fxpu%2F206921",
+      "date": "2026-11-28",
+      "sourceId": "pytorch--pytorch",
+      "source": "pytorch/pytorch 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/ciflow%2Ftrunk%2F206921",
+      "title": "ciflow/trunk/206921: [UPDATE] Update",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/ciflow%2Ftrunk%2F206921",
+      "date": "2026-11-28",
+      "sourceId": "pytorch--pytorch",
+      "source": "pytorch/pytorch 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12819",
+      "title": "b12819: CUDA: cache the device type at init (#33142)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12819",
+      "date": "2026-11-27",
+      "sourceId": "ggml-org--llama.cpp",
+      "source": "ggml-org/llama.cpp 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12818",
+      "title": "b12818",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12818",
+      "date": "2026-11-27",
+      "sourceId": "ggml-org--llama.cpp",
+      "source": "ggml-org/llama.cpp 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12816",
+      "title": "b12816",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12816",
+      "date": "2026-11-27",
+      "sourceId": "ggml-org--llama.cpp",
+      "source": "ggml-org/llama.cpp 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12815",
+      "title": "b12815",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12815",
+      "date": "2026-11-27",
+      "sourceId": "ggml-org--llama.cpp",
+      "source": "ggml-org/llama.cpp 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12814",
+      "title": "b12814",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12814",
+      "date": "2026-11-27",
+      "sourceId": "ggml-org--llama.cpp",
+      "source": "ggml-org/llama.cpp 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12812",
+      "title": "b12812",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12812",
+      "date": "2026-11-27",
+      "sourceId": "ggml-org--llama.cpp",
+      "source": "ggml-org/llama.cpp 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12811",
+      "title": "b12811",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12811",
+      "date": "2026-11-27",
+      "sourceId": "ggml-org--llama.cpp",
+      "source": "ggml-org/llama.cpp 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12810",
+      "title": "b12810",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12810",
+      "date": "2026-11-27",
+      "sourceId": "ggml-org--llama.cpp",
+      "source": "ggml-org/llama.cpp 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/ollama/ollama/releases/tag/v0.40.19",
+      "title": "v0.40.19",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19",
+      "date": "2026-11-27",
+      "sourceId": "ollama--ollama",
+      "source": "ollama/ollama 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795812629",
+      "title": "viable/strict/1795812629: [XPU] Enable TestOptimRenewed in test_optim.py (#204387)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795812629",
+      "date": "2026-11-27",
+      "sourceId": "pytorch--pytorch",
+      "source": "pytorch/pytorch 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795809052",
+      "title": "viable/strict/1795809052: [xpu] Introduce pin_memory&unpin_memory on XPU (#195819)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795809052",
+      "date": "2026-11-27",
+      "sourceId": "pytorch--pytorch",
+      "source": "pytorch/pytorch 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795805434",
+      "title": "viable/strict/1795805434",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795805434",
+      "date": "2026-11-27",
+      "sourceId": "pytorch--pytorch",
+      "source": "pytorch/pytorch 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795791005",
+      "title": "viable/strict/1795791005: Implement histogram meta functions. (#202037)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795791005",
+      "date": "2026-11-27",
+      "sourceId": "pytorch--pytorch",
+      "source": "pytorch/pytorch 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795787437",
+      "title": "viable/strict/1795787437",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795787437",
+      "date": "2026-11-27",
+      "sourceId": "pytorch--pytorch",
+      "source": "pytorch/pytorch 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
+      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795785645",
+      "title": "viable/strict/1795785645: Register narrow_copy.out on XPU. (#202200)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795785645",
+      "date": "2026-11-27",
+      "sourceId": "pytorch--pytorch",
+      "source": "pytorch/pytorch 官方发布",
+      "category": "开源动态",
+      "summary": "GitHub 官方版本发布记录",
+      "collectedAt": "2026-11-27T22:02:21.610Z"
+    },
+    {
       "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0",
       "title": "v1.1.0",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0",
@@ -5513,14 +5698,14 @@
     },
     {
       "id": "tech-https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
-      "title": "v0.40.19",
+      "title": "v0.40.19-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
       "date": "2026-11-26",
       "sourceId": "ollama--ollama",
       "source": "ollama/ollama 官方发布",
       "category": "开源动态",
       "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "tech-https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795718990",
@@ -5971,7 +6156,7 @@
       "source": "huggingface/transformers 官方发布",
       "category": "开源动态",
       "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "tech-https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0",
@@ -5982,7 +6167,7 @@
       "source": "vllm-project/vllm 官方发布",
       "category": "开源动态",
       "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "tech-https://github.com/ollama/ollama/releases/tag/v0.40.18",
@@ -5993,7 +6178,7 @@
       "source": "ollama/ollama 官方发布",
       "category": "开源动态",
       "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "tech-https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0",
@@ -6004,7 +6189,7 @@
       "source": "ollama/ollama 官方发布",
       "category": "开源动态",
       "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-26T21:58:58.703Z"
+      "collectedAt": "2026-11-27T22:02:21.610Z"
     },
     {
       "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12655",
@@ -6115,193 +6300,6 @@
       "category": "开源动态",
       "summary": "GitHub 官方版本发布记录",
       "collectedAt": "2026-11-23T21:58:33.056Z"
-    },
-    {
-      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795413033",
-      "title": "viable/strict/1795413033",
-      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795413033",
-      "date": "2026-11-23",
-      "sourceId": "pytorch--pytorch",
-      "source": "pytorch/pytorch 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-23T21:58:33.056Z"
-    },
-    {
-      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/trunk%2F134033073c8d2342daf13e3b4bac833c8a92563a",
-      "title": "trunk/134033073c8d2342daf13e3b4bac833c8a92563a: [dynamo] Use CPython-style arg checks for builtin arity errors (#205749)",
-      "url": "https://github.com/pytorch/pytorch/releases/tag/trunk%2F134033073c8d2342daf13e3b4bac833c8a92563a",
-      "date": "2026-11-23",
-      "sourceId": "pytorch--pytorch",
-      "source": "pytorch/pytorch 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-23T21:58:33.056Z"
-    },
-    {
-      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/trunk%2F007717347ee198ea08d48f68067af53ededb082d",
-      "title": "trunk/007717347ee198ea08d48f68067af53ededb082d: [dynamo] Pass class keywords through in __build_class__ (#205724)",
-      "url": "https://github.com/pytorch/pytorch/releases/tag/trunk%2F007717347ee198ea08d48f68067af53ededb082d",
-      "date": "2026-11-23",
-      "sourceId": "pytorch--pytorch",
-      "source": "pytorch/pytorch 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-23T21:58:33.056Z"
-    },
-    {
-      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/trunk%2F00772440e665f81a8e9e6426dfc167b8e8dc4fa9",
-      "title": "trunk/00772440e665f81a8e9e6426dfc167b8e8dc4fa9: [Dynamo] Fix state pollution in test infra and config restore (#191930)",
-      "url": "https://github.com/pytorch/pytorch/releases/tag/trunk%2F00772440e665f81a8e9e6426dfc167b8e8dc4fa9",
-      "date": "2026-11-23",
-      "sourceId": "pytorch--pytorch",
-      "source": "pytorch/pytorch 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-23T21:58:33.056Z"
-    },
-    {
-      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/trunk%2F69197b1962aaa286767d9ab30cafedd4ff810d82",
-      "title": "trunk/69197b1962aaa286767d9ab30cafedd4ff810d82",
-      "url": "https://github.com/pytorch/pytorch/releases/tag/trunk%2F69197b1962aaa286767d9ab30cafedd4ff810d82",
-      "date": "2026-11-23",
-      "sourceId": "pytorch--pytorch",
-      "source": "pytorch/pytorch 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-23T21:58:33.056Z"
-    },
-    {
-      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/trunk%2F42277bbbee4876384659e564e905ce13a9cd2441",
-      "title": "trunk/42277bbbee4876384659e564e905ce13a9cd2441: [dynamo] Flatten _lookup_code's code_source walk (#206197)",
-      "url": "https://github.com/pytorch/pytorch/releases/tag/trunk%2F42277bbbee4876384659e564e905ce13a9cd2441",
-      "date": "2026-11-23",
-      "sourceId": "pytorch--pytorch",
-      "source": "pytorch/pytorch 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-23T21:58:33.056Z"
-    },
-    {
-      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12635",
-      "title": "b12635: ggml : add SIGMOID backward pass (#32126)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12635",
-      "date": "2026-11-22",
-      "sourceId": "ggml-org--llama.cpp",
-      "source": "ggml-org/llama.cpp 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-22T22:00:15.059Z"
-    },
-    {
-      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12634",
-      "title": "b12634: chat : trigger lazy grammar on bare JSON tool calls (#32497)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12634",
-      "date": "2026-11-22",
-      "sourceId": "ggml-org--llama.cpp",
-      "source": "ggml-org/llama.cpp 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-22T22:00:15.059Z"
-    },
-    {
-      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12633",
-      "title": "b12633",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12633",
-      "date": "2026-11-22",
-      "sourceId": "ggml-org--llama.cpp",
-      "source": "ggml-org/llama.cpp 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-22T22:00:15.059Z"
-    },
-    {
-      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12632",
-      "title": "b12632",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12632",
-      "date": "2026-11-22",
-      "sourceId": "ggml-org--llama.cpp",
-      "source": "ggml-org/llama.cpp 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-22T22:00:15.059Z"
-    },
-    {
-      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12631",
-      "title": "b12631",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12631",
-      "date": "2026-11-22",
-      "sourceId": "ggml-org--llama.cpp",
-      "source": "ggml-org/llama.cpp 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-22T22:00:15.059Z"
-    },
-    {
-      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12629",
-      "title": "b12629",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12629",
-      "date": "2026-11-22",
-      "sourceId": "ggml-org--llama.cpp",
-      "source": "ggml-org/llama.cpp 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-22T22:00:15.059Z"
-    },
-    {
-      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12628",
-      "title": "b12628",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12628",
-      "date": "2026-11-22",
-      "sourceId": "ggml-org--llama.cpp",
-      "source": "ggml-org/llama.cpp 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-22T22:00:15.059Z"
-    },
-    {
-      "id": "tech-https://github.com/ggml-org/llama.cpp/releases/tag/b12627",
-      "title": "b12627",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12627",
-      "date": "2026-11-22",
-      "sourceId": "ggml-org--llama.cpp",
-      "source": "ggml-org/llama.cpp 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-22T22:00:15.059Z"
-    },
-    {
-      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795380584",
-      "title": "viable/strict/1795380584",
-      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795380584",
-      "date": "2026-11-22",
-      "sourceId": "pytorch--pytorch",
-      "source": "pytorch/pytorch 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-22T22:00:15.059Z"
-    },
-    {
-      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795378803",
-      "title": "viable/strict/1795378803: [XPU] Enable SDPA training checks in test_fused_attention (#201614)",
-      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795378803",
-      "date": "2026-11-22",
-      "sourceId": "pytorch--pytorch",
-      "source": "pytorch/pytorch 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-22T22:00:15.059Z"
-    },
-    {
-      "id": "tech-https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795368000",
-      "title": "viable/strict/1795368000",
-      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1795368000",
-      "date": "2026-11-22",
-      "sourceId": "pytorch--pytorch",
-      "source": "pytorch/pytorch 官方发布",
-      "category": "开源动态",
-      "summary": "GitHub 官方版本发布记录",
-      "collectedAt": "2026-11-22T22:00:15.059Z"
     }
   ],
   "sources": [
@@ -6316,8 +6314,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6331,8 +6329,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6346,8 +6344,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6361,8 +6359,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6376,8 +6374,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6391,8 +6389,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6406,8 +6404,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6421,8 +6419,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6436,8 +6434,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6451,8 +6449,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6466,8 +6464,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6481,8 +6479,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6496,8 +6494,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6511,8 +6509,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6526,8 +6524,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6541,7 +6539,7 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "error",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
       "lastSuccessAt": null,
       "error": "该页面需要学校统一认证或校园网/VPN"
     },
@@ -6556,8 +6554,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6571,8 +6569,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6586,8 +6584,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6601,8 +6599,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6616,8 +6614,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6631,8 +6629,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6646,8 +6644,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6661,8 +6659,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6676,8 +6674,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6691,8 +6689,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6706,8 +6704,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6721,8 +6719,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6736,8 +6734,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6751,8 +6749,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6766,8 +6764,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6781,8 +6779,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6796,8 +6794,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6811,8 +6809,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6826,8 +6824,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6841,8 +6839,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6856,8 +6854,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6871,8 +6869,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6886,8 +6884,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6901,7 +6899,7 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "error",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
       "lastSuccessAt": null,
       "error": "未识别到列表，保留上次记录；请查看原站"
     },
@@ -6916,8 +6914,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6931,8 +6929,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6946,8 +6944,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6961,8 +6959,8 @@
       "checkedAt": "2026-10-23",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6974,8 +6972,8 @@
       "category": "开源动态",
       "description": "GitHub 官方版本发布记录",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -6987,8 +6985,8 @@
       "category": "开源动态",
       "description": "GitHub 官方版本发布记录",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -7000,8 +6998,8 @@
       "category": "开源动态",
       "description": "GitHub 官方版本发布记录",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -7013,8 +7011,8 @@
       "category": "开源动态",
       "description": "GitHub 官方版本发布记录",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -7026,8 +7024,8 @@
       "category": "开源动态",
       "description": "GitHub 官方版本发布记录",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -7039,7 +7037,7 @@
       "category": "开源动态",
       "description": "GitHub 官方版本发布记录",
       "status": "error",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
       "lastSuccessAt": "2026-11-15T22:03:04.305Z",
       "error": "HTTP 404"
     },
@@ -7051,8 +7049,8 @@
       "description": "官网通知公告列表，发布日期以原文为准",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -7063,8 +7061,8 @@
       "description": "官网通知公告列表，发布日期以原文为准",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -7075,8 +7073,8 @@
       "description": "官网通知公告列表，发布日期以原文为准",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -7087,8 +7085,8 @@
       "description": "官网通知公告列表，发布日期以原文为准",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     },
     {
@@ -7099,8 +7097,8 @@
       "description": "官网通知公告列表，发布日期以原文为准",
       "kind": "campus",
       "status": "ok",
-      "lastChecked": "2026-11-26T21:58:58.703Z",
-      "lastSuccessAt": "2026-11-26T21:58:58.703Z",
+      "lastChecked": "2026-11-27T22:02:21.610Z",
+      "lastSuccessAt": "2026-11-27T22:02:21.610Z",
       "error": null
     }
   ],
@@ -7161,11 +7159,11 @@
     "timezone": "Asia/Shanghai",
     "timing": "best-effort"
   },
-  "curatedAt": "2026-11-26T22:00:10.640Z",
+  "curatedAt": "2026-11-27T22:04:01.429Z",
   "storageReady": true,
   "delivery": {
     "mode": "mirror",
-    "checkedAt": "2026-11-26T22:00:28.476Z",
+    "checkedAt": "2026-11-27T22:04:17.785Z",
     "upstreamMode": "live",
     "attempts": 1
   }
